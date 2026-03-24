@@ -1,6 +1,6 @@
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { copyStringIntoBuffer } from 'src/utils';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
+import { copyStringIntoBuffer } from '../../utils';
 var PDFOperator = /** @class */ (function () {
     function PDFOperator(name, args) {
         this.name = name;

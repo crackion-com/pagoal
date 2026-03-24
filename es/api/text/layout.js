@@ -1,6 +1,6 @@
-import { CombedTextLayoutError } from 'src/api/errors';
-import { TextAlignment } from 'src/api/text/alignment';
-import { cleanText, lineSplit, mergeLines, charAtIndex, charSplit, } from 'src/utils';
+import { CombedTextLayoutError } from '../../api/errors';
+import { TextAlignment } from '../../api/text/alignment';
+import { cleanText, lineSplit, mergeLines, charAtIndex, charSplit, } from '../../utils';
 var MIN_FONT_SIZE = 4;
 var MAX_FONT_SIZE = 500;
 var computeFontSize = function (lines, font, bounds, multiline) {

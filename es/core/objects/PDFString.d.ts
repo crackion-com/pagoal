@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFString extends PDFObject {
     static of: (value: string) => PDFString;
     static fromDate: (date: Date) => PDFString;

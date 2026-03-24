@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import PDFAcroButton from 'src/core/acroform/PDFAcroButton';
-import { AcroButtonFlags } from 'src/core/acroform/flags';
+import PDFAcroButton from '../../core/acroform/PDFAcroButton';
+import { AcroButtonFlags } from '../../core/acroform/flags';
 var PDFAcroPushButton = /** @class */ (function (_super) {
     __extends(PDFAcroPushButton, _super);
     function PDFAcroPushButton() {

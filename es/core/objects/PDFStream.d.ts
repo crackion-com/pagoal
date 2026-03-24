@@ -1,6 +1,6 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFObject from 'src/core/objects/PDFObject';
-import PDFContext from 'src/core/PDFContext';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFObject from '../../core/objects/PDFObject';
+import PDFContext from '../../core/PDFContext';
 declare class PDFStream extends PDFObject {
     readonly dict: PDFDict;
     constructor(dict: PDFDict);

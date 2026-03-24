@@ -1,9 +1,9 @@
 import { __extends } from "tslib";
-import { PrivateConstructorError } from 'src/core/errors';
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { IsIrregular } from 'src/core/syntax/Irregular';
-import { charFromHexCode, copyStringIntoBuffer, toCharCode, toHexString, } from 'src/utils';
+import { PrivateConstructorError } from '../../core/errors';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
+import { IsIrregular } from '../../core/syntax/Irregular';
+import { charFromHexCode, copyStringIntoBuffer, toCharCode, toHexString, } from '../../utils';
 var decodeName = function (name) {
     return name.replace(/#([\dABCDEF]{2})/g, function (_, hex) { return charFromHexCode(hex); });
 };

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createCmap = void 0;
-var utils_1 = require("src/utils");
-var unicode_1 = require("src/utils/unicode");
+var utils_1 = require("../../utils");
+var unicode_1 = require("../../utils/unicode");
 /** `glyphs` should be an array of unique glyphs */
 exports.createCmap = function (glyphs, glyphId) {
     var bfChars = new Array(glyphs.length);

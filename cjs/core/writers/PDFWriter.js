@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFCrossRefSection_1 = tslib_1.__importDefault(require("src/core/document/PDFCrossRefSection"));
-var PDFHeader_1 = tslib_1.__importDefault(require("src/core/document/PDFHeader"));
-var PDFTrailer_1 = tslib_1.__importDefault(require("src/core/document/PDFTrailer"));
-var PDFTrailerDict_1 = tslib_1.__importDefault(require("src/core/document/PDFTrailerDict"));
-var PDFObjectStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFObjectStream"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var utils_1 = require("src/utils");
+var PDFCrossRefSection_1 = tslib_1.__importDefault(require("../../core/document/PDFCrossRefSection"));
+var PDFHeader_1 = tslib_1.__importDefault(require("../../core/document/PDFHeader"));
+var PDFTrailer_1 = tslib_1.__importDefault(require("../../core/document/PDFTrailer"));
+var PDFTrailerDict_1 = tslib_1.__importDefault(require("../../core/document/PDFTrailerDict"));
+var PDFObjectStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFObjectStream"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var utils_1 = require("../../utils");
 var PDFWriter = /** @class */ (function () {
     function PDFWriter(context, objectsPerTick) {
         var _this = this;

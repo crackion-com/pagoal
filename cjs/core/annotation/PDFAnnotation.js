@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFStream"));
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFStream_1 = tslib_1.__importDefault(require("../../core/objects/PDFStream"));
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
 var PDFAnnotation = /** @class */ (function () {
     function PDFAnnotation(dict) {
         this.dict = dict;

@@ -1,5 +1,5 @@
-import { EmbeddedFileOptions } from 'src/core/embedders/FileEmbedder';
-import { TypeFeatures } from 'src/types/fontkit';
+import { EmbeddedFileOptions } from '../core/embedders/FileEmbedder';
+import { TypeFeatures } from '../types/fontkit';
 export declare enum ParseSpeeds {
     Fastest = Infinity,
     Fast = 1500,

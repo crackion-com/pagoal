@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.MissingKeywordError = exports.MissingPDFHeaderError = exports.StalledParserError = exports.UnbalancedParenthesisError = exports.PDFStreamParsingError = exports.PDFInvalidObjectParsingError = exports.PDFObjectParsingError = exports.NextByteAssertionError = exports.PDFParsingError = exports.NumberParsingError = exports.MissingTfOperatorError = exports.MissingDAEntryError = exports.MultiSelectValueError = exports.InvalidAcroFieldValueError = exports.IndexOutOfBoundsError = exports.CorruptPageTreeError = exports.InvalidTargetIndexError = exports.InvalidPDFDateStringError = exports.PDFArrayIsNotRectangleError = exports.PageEmbeddingMismatchedContextError = exports.UnrecognizedStreamTypeError = exports.MissingPageContentsEmbeddingError = exports.MissingCatalogError = exports.ReparseError = exports.UnsupportedEncodingError = exports.UnexpectedObjectTypeError = exports.PrivateConstructorError = exports.MethodNotImplementedError = void 0;
 var tslib_1 = require("tslib");
-var utils_1 = require("src/utils");
+var utils_1 = require("../utils");
 var MethodNotImplementedError = /** @class */ (function (_super) {
     tslib_1.__extends(MethodNotImplementedError, _super);
     function MethodNotImplementedError(className, methodName) {

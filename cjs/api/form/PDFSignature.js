@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFField_1 = tslib_1.__importDefault(require("src/api/form/PDFField"));
-var core_1 = require("src/core");
-var utils_1 = require("src/utils");
+var PDFField_1 = tslib_1.__importDefault(require("../../api/form/PDFField"));
+var core_1 = require("../../core");
+var utils_1 = require("../../utils");
 /**
  * Represents a signature field of a [[PDFForm]].
  *

@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var PDFStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFStream"));
-var PDFPageLeaf_1 = tslib_1.__importDefault(require("src/core/structures/PDFPageLeaf"));
+var PDFArray_1 = tslib_1.__importDefault(require("../core/objects/PDFArray"));
+var PDFDict_1 = tslib_1.__importDefault(require("../core/objects/PDFDict"));
+var PDFName_1 = tslib_1.__importDefault(require("../core/objects/PDFName"));
+var PDFRef_1 = tslib_1.__importDefault(require("../core/objects/PDFRef"));
+var PDFStream_1 = tslib_1.__importDefault(require("../core/objects/PDFStream"));
+var PDFPageLeaf_1 = tslib_1.__importDefault(require("../core/structures/PDFPageLeaf"));
 /**
  * PDFObjectCopier copies PDFObjects from a src context to a dest context.
  * The primary use case for this is to copy pages between PDFs.

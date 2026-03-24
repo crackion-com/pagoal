@@ -1,10 +1,10 @@
 import { __extends } from "tslib";
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFPageLeaf from 'src/core/structures/PDFPageLeaf';
-import { InvalidTargetIndexError, CorruptPageTreeError } from 'src/core/errors';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFPageLeaf from '../../core/structures/PDFPageLeaf';
+import { InvalidTargetIndexError, CorruptPageTreeError } from '../../core/errors';
 var PDFPageTree = /** @class */ (function (_super) {
     __extends(PDFPageTree, _super);
     function PDFPageTree() {

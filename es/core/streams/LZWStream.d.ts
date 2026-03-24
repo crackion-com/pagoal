@@ -1,5 +1,5 @@
-import DecodeStream from 'src/core/streams/DecodeStream';
-import { StreamType } from 'src/core/streams/Stream';
+import DecodeStream from '../../core/streams/DecodeStream';
+import { StreamType } from '../../core/streams/Stream';
 declare class LZWStream extends DecodeStream {
     private stream;
     private cachedData;

@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-var errors_1 = require("src/core/errors");
+var errors_1 = require("../../core/errors");
 var PDFObject = /** @class */ (function () {
     function PDFObject() {
     }

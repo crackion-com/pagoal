@@ -1,7 +1,7 @@
 import { __awaiter, __generator } from "tslib";
-import PDFDocument from 'src/api/PDFDocument';
-import { PDFPageEmbedder, PDFRef } from 'src/core';
-import { assertIs } from 'src/utils';
+import PDFDocument from '../api/PDFDocument';
+import { PDFPageEmbedder, PDFRef } from '../core';
+import { assertIs } from '../utils';
 /**
  * Represents a PDF page that has been embedded in a [[PDFDocument]].
  */

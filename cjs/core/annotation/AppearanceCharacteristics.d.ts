@@ -1,8 +1,8 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFString from 'src/core/objects/PDFString';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFString from '../../core/objects/PDFString';
 declare class AppearanceCharacteristics {
     readonly dict: PDFDict;
     static fromDict: (dict: PDFDict) => AppearanceCharacteristics;

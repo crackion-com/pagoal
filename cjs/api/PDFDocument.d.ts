@@ -1,14 +1,14 @@
-import PDFEmbeddedPage from 'src/api/PDFEmbeddedPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFImage from 'src/api/PDFImage';
-import PDFPage from 'src/api/PDFPage';
-import PDFForm from 'src/api/form/PDFForm';
-import { StandardFonts } from 'src/api/StandardFonts';
-import { PageBoundingBox, PDFCatalog, PDFContext } from 'src/core';
-import { AttachmentOptions, SaveOptions, Base64SaveOptions, LoadOptions, CreateOptions, EmbedFontOptions, SetTitleOptions } from 'src/api/PDFDocumentOptions';
-import PDFRef from 'src/core/objects/PDFRef';
-import { Fontkit } from 'src/types/fontkit';
-import { TransformationMatrix } from 'src/types/matrix';
+import PDFEmbeddedPage from '../api/PDFEmbeddedPage';
+import PDFFont from '../api/PDFFont';
+import PDFImage from '../api/PDFImage';
+import PDFPage from '../api/PDFPage';
+import PDFForm from '../api/form/PDFForm';
+import { StandardFonts } from '../api/StandardFonts';
+import { PageBoundingBox, PDFCatalog, PDFContext } from '../core';
+import { AttachmentOptions, SaveOptions, Base64SaveOptions, LoadOptions, CreateOptions, EmbedFontOptions, SetTitleOptions } from '../api/PDFDocumentOptions';
+import PDFRef from '../core/objects/PDFRef';
+import { Fontkit } from '../types/fontkit';
+import { TransformationMatrix } from '../types/matrix';
 /**
  * Represents a PDF document.
  */

@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroField from 'src/core/acroform/PDFAcroField';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroField from '../../core/acroform/PDFAcroField';
 var PDFAcroNonTerminal = /** @class */ (function (_super) {
     __extends(PDFAcroNonTerminal, _super);
     function PDFAcroNonTerminal() {

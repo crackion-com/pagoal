@@ -1,11 +1,11 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFString from 'src/core/objects/PDFString';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFName from 'src/core/objects/PDFName';
-import PDFObject from 'src/core/objects/PDFObject';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFRef from 'src/core/objects/PDFRef';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFString from '../../core/objects/PDFString';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFName from '../../core/objects/PDFName';
+import PDFObject from '../../core/objects/PDFObject';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFRef from '../../core/objects/PDFRef';
 declare class PDFAcroField {
     readonly dict: PDFDict;
     readonly ref: PDFRef;

@@ -1,2 +1,2 @@
-export { TransformationMatrix } from 'src/types/matrix';
+export { TransformationMatrix } from '../types/matrix';
 //# sourceMappingURL=index.d.ts.map

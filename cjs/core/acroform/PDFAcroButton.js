@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFString_1 = tslib_1.__importDefault(require("src/core/objects/PDFString"));
-var PDFHexString_1 = tslib_1.__importDefault(require("src/core/objects/PDFHexString"));
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFAcroTerminal_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroTerminal"));
-var errors_1 = require("src/core/errors");
+var PDFString_1 = tslib_1.__importDefault(require("../../core/objects/PDFString"));
+var PDFHexString_1 = tslib_1.__importDefault(require("../../core/objects/PDFHexString"));
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFAcroTerminal_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroTerminal"));
+var errors_1 = require("../../core/errors");
 var PDFAcroButton = /** @class */ (function (_super) {
     tslib_1.__extends(PDFAcroButton, _super);
     function PDFAcroButton() {

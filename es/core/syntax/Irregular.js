@@ -1,6 +1,6 @@
-import CharCodes from 'src/core/syntax/CharCodes';
-import { IsDelimiter } from 'src/core/syntax/Delimiters';
-import { IsWhitespace } from 'src/core/syntax/Whitespace';
+import CharCodes from '../../core/syntax/CharCodes';
+import { IsDelimiter } from '../../core/syntax/Delimiters';
+import { IsWhitespace } from '../../core/syntax/Whitespace';
 export var IsIrregular = new Uint8Array(256);
 for (var idx = 0, len = 256; idx < len; idx++) {
     IsIrregular[idx] = IsWhitespace[idx] || IsDelimiter[idx] ? 1 : 0;

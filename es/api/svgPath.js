@@ -2,7 +2,7 @@
 // https://github.com/foliojs/pdfkit/blob/1e62e6ffe24b378eb890df507a47610f4c4a7b24/lib/path.js
 // MIT LICENSE
 // Updated for pdf-lib & TypeScript by Jeremy Messenger
-import { appendBezierCurve, appendQuadraticCurve, closePath, lineTo, moveTo, } from 'src/api/operators';
+import { appendBezierCurve, appendQuadraticCurve, closePath, lineTo, moveTo, } from '../api/operators';
 var cx = 0;
 var cy = 0;
 var px = 0;

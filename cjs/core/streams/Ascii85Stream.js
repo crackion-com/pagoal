@@ -8,7 +8,7 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var DecodeStream_1 = tslib_1.__importDefault(require("src/core/streams/DecodeStream"));
+var DecodeStream_1 = tslib_1.__importDefault(require("../../core/streams/DecodeStream"));
 var isSpace = function (ch) {
     return ch === 0x20 || ch === 0x09 || ch === 0x0d || ch === 0x0a;
 };

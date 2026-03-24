@@ -1,2 +1,2 @@
-export * from 'src/api/image/alignment';
+export * from '../../api/image/alignment';
 //# sourceMappingURL=index.js.map

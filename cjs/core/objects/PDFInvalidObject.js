@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFObject"));
+var PDFObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFObject"));
 var PDFInvalidObject = /** @class */ (function (_super) {
     tslib_1.__extends(PDFInvalidObject, _super);
     function PDFInvalidObject(data) {

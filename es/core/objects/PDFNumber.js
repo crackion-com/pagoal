@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import { copyStringIntoBuffer, numberToString } from 'src/utils/index';
-import PDFObject from 'src/core/objects/PDFObject';
+import { copyStringIntoBuffer, numberToString } from '../../utils/index';
+import PDFObject from '../../core/objects/PDFObject';
 var PDFNumber = /** @class */ (function (_super) {
     __extends(PDFNumber, _super);
     function PDFNumber(value) {

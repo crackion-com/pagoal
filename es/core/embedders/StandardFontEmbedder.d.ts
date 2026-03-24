@@ -1,7 +1,7 @@
 import { Font, FontNames, EncodingType } from '@pdf-lib/standard-fonts';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
 export interface Glyph {
     code: number;
     name: string;

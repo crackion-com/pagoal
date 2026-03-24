@@ -1,5 +1,5 @@
-import PDFObject from 'src/core/objects/PDFObject';
-import PDFContext from 'src/core/PDFContext';
+import PDFObject from '../core/objects/PDFObject';
+import PDFContext from '../core/PDFContext';
 /**
  * PDFObjectCopier copies PDFObjects from a src context to a dest context.
  * The primary use case for this is to copy pages between PDFs.

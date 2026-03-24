@@ -1,4 +1,4 @@
-import PDFContext from 'src/core/PDFContext';
+import PDFContext from '../../core/PDFContext';
 declare class PDFObject {
     clone(_context?: PDFContext): PDFObject;
     toString(): string;

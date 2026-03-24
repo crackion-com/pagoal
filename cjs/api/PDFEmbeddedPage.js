@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFDocument_1 = tslib_1.__importDefault(require("src/api/PDFDocument"));
-var core_1 = require("src/core");
-var utils_1 = require("src/utils");
+var PDFDocument_1 = tslib_1.__importDefault(require("../api/PDFDocument"));
+var core_1 = require("../core");
+var utils_1 = require("../utils");
 /**
  * Represents a PDF page that has been embedded in a [[PDFDocument]].
  */

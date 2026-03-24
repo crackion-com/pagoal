@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var index_1 = require("src/utils/index");
-var PDFObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFObject"));
+var index_1 = require("../../utils/index");
+var PDFObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFObject"));
 var PDFNumber = /** @class */ (function (_super) {
     tslib_1.__extends(PDFNumber, _super);
     function PDFNumber(value) {

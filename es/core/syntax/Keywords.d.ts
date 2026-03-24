@@ -1,4 +1,4 @@
-import CharCodes from 'src/core/syntax/CharCodes';
+import CharCodes from '../../core/syntax/CharCodes';
 export declare const Keywords: {
     header: CharCodes[];
     eof: CharCodes[];

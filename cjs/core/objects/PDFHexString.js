@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFObject"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var utils_1 = require("src/utils");
-var errors_1 = require("src/core/errors");
+var PDFObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFObject"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var utils_1 = require("../../utils");
+var errors_1 = require("../../core/errors");
 var PDFHexString = /** @class */ (function (_super) {
     tslib_1.__extends(PDFHexString, _super);
     function PDFHexString(value) {

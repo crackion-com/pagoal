@@ -1,5 +1,5 @@
 import { __awaiter, __generator } from "tslib";
-import { PDFName, PDFArray, PDFDict, PDFHexString } from 'src/core';
+import { PDFName, PDFArray, PDFDict, PDFHexString } from '../core';
 /**
  * Represents a file that has been embedded in a [[PDFDocument]].
  */

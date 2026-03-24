@@ -2,13 +2,13 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.defaultOptionListAppearanceProvider = exports.defaultDropdownAppearanceProvider = exports.defaultTextFieldAppearanceProvider = exports.defaultButtonAppearanceProvider = exports.defaultRadioGroupAppearanceProvider = exports.defaultCheckBoxAppearanceProvider = exports.normalizeAppearance = void 0;
 var tslib_1 = require("tslib");
-var operations_1 = require("src/api/operations");
-var colors_1 = require("src/api/colors");
-var rotations_1 = require("src/api/rotations");
-var layout_1 = require("src/api/text/layout");
-var alignment_1 = require("src/api/text/alignment");
-var operators_1 = require("src/api/operators");
-var utils_1 = require("src/utils");
+var operations_1 = require("../../api/operations");
+var colors_1 = require("../../api/colors");
+var rotations_1 = require("../../api/rotations");
+var layout_1 = require("../../api/text/layout");
+var alignment_1 = require("../../api/text/alignment");
+var operators_1 = require("../../api/operators");
+var utils_1 = require("../../utils");
 /********************* Appearance Provider Functions **************************/
 exports.normalizeAppearance = function (appearance) {
     if ('normal' in appearance)

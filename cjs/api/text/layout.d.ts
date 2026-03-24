@@ -1,6 +1,6 @@
-import PDFFont from 'src/api/PDFFont';
-import { TextAlignment } from 'src/api/text/alignment';
-import { PDFHexString } from 'src/core';
+import PDFFont from '../../api/PDFFont';
+import { TextAlignment } from '../../api/text/alignment';
+import { PDFHexString } from '../../core';
 export interface TextPosition {
     text: string;
     encoded: PDFHexString;

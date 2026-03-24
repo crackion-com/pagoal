@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import PDFStream from 'src/core/objects/PDFStream';
-import { arrayAsString } from 'src/utils';
+import PDFStream from '../../core/objects/PDFStream';
+import { arrayAsString } from '../../utils';
 var PDFRawStream = /** @class */ (function (_super) {
     __extends(PDFRawStream, _super);
     function PDFRawStream(dict, contents) {

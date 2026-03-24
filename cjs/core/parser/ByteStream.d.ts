@@ -1,4 +1,4 @@
-import PDFRawStream from 'src/core/objects/PDFRawStream';
+import PDFRawStream from '../../core/objects/PDFRawStream';
 declare class ByteStream {
     static of: (bytes: Uint8Array) => ByteStream;
     static fromPDFRawStream: (rawStream: PDFRawStream) => ByteStream;

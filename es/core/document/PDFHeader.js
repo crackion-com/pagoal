@@ -1,5 +1,5 @@
-import CharCodes from 'src/core/syntax/CharCodes';
-import { charFromCode, copyStringIntoBuffer } from 'src/utils';
+import CharCodes from '../../core/syntax/CharCodes';
+import { charFromCode, copyStringIntoBuffer } from '../../utils';
 var PDFHeader = /** @class */ (function () {
     function PDFHeader(major, minor) {
         this.major = String(major);

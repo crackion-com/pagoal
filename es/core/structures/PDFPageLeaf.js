@@ -1,9 +1,9 @@
 import { __extends } from "tslib";
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFStream from 'src/core/objects/PDFStream';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFStream from '../../core/objects/PDFStream';
 var PDFPageLeaf = /** @class */ (function (_super) {
     __extends(PDFPageLeaf, _super);
     function PDFPageLeaf(map, context, autoNormalizeCTM) {

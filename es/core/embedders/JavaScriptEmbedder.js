@@ -1,5 +1,5 @@
 import { __awaiter, __generator } from "tslib";
-import PDFHexString from 'src/core/objects/PDFHexString';
+import PDFHexString from '../../core/objects/PDFHexString';
 var JavaScriptEmbedder = /** @class */ (function () {
     function JavaScriptEmbedder(script, scriptName) {
         this.script = script;

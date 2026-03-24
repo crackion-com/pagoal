@@ -1,11 +1,11 @@
 import { __extends } from "tslib";
-import PDFPage from 'src/api/PDFPage';
-import PDFField, { assertFieldAppearanceOptions, } from 'src/api/form/PDFField';
-import { normalizeAppearance, defaultRadioGroupAppearanceProvider, } from 'src/api/form/appearances';
-import { rgb } from 'src/api/colors';
-import { degrees } from 'src/api/rotations';
-import { PDFName, PDFHexString, PDFDict, PDFAcroRadioButton, AcroButtonFlags, } from 'src/core';
-import { assertIs, assertOrUndefined, assertIsOneOf } from 'src/utils';
+import PDFPage from '../../api/PDFPage';
+import PDFField, { assertFieldAppearanceOptions, } from '../../api/form/PDFField';
+import { normalizeAppearance, defaultRadioGroupAppearanceProvider, } from '../../api/form/appearances';
+import { rgb } from '../../api/colors';
+import { degrees } from '../../api/rotations';
+import { PDFName, PDFHexString, PDFDict, PDFAcroRadioButton, AcroButtonFlags, } from '../../core';
+import { assertIs, assertOrUndefined, assertIsOneOf } from '../../utils';
 /**
  * Represents a radio group field of a [[PDFForm]].
  *

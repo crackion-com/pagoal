@@ -1,5 +1,5 @@
-export * from 'src/api/index';
-export * from 'src/core/index';
-export * from 'src/types/index';
-export * from 'src/utils/index';
+export * from './api/index';
+export * from './core/index';
+export * from './types/index';
+export * from './utils/index';
 //# sourceMappingURL=index.js.map

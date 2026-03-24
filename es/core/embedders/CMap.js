@@ -1,5 +1,5 @@
-import { toHexString, toHexStringOfMinLength } from 'src/utils';
-import { hasSurrogates, highSurrogate, isWithinBMP, lowSurrogate, } from 'src/utils/unicode';
+import { toHexString, toHexStringOfMinLength } from '../../utils';
+import { hasSurrogates, highSurrogate, isWithinBMP, lowSurrogate, } from '../../utils/unicode';
 /** `glyphs` should be an array of unique glyphs */
 export var createCmap = function (glyphs, glyphId) {
     var bfChars = new Array(glyphs.length);

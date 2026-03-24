@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFAcroTerminal_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroTerminal"));
+var PDFAcroTerminal_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroTerminal"));
 var PDFAcroSignature = /** @class */ (function (_super) {
     tslib_1.__extends(PDFAcroSignature, _super);
     function PDFAcroSignature() {

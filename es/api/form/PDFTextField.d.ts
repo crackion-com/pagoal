@@ -1,11 +1,11 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFPage from 'src/api/PDFPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFImage from 'src/api/PDFImage';
-import PDFField, { FieldAppearanceOptions } from 'src/api/form/PDFField';
-import { AppearanceProviderFor } from 'src/api/form/appearances';
-import { TextAlignment } from 'src/api/text/alignment';
-import { PDFRef, PDFAcroText } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFPage from '../../api/PDFPage';
+import PDFFont from '../../api/PDFFont';
+import PDFImage from '../../api/PDFImage';
+import PDFField, { FieldAppearanceOptions } from '../../api/form/PDFField';
+import { AppearanceProviderFor } from '../../api/form/appearances';
+import { TextAlignment } from '../../api/text/alignment';
+import { PDFRef, PDFAcroText } from '../../core';
 /**
  * Represents a text field of a [[PDFForm]].
  *

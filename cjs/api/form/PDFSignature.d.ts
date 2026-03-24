@@ -1,6 +1,6 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFField from 'src/api/form/PDFField';
-import { PDFRef, PDFAcroSignature } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFField from '../../api/form/PDFField';
+import { PDFRef, PDFAcroSignature } from '../../core';
 /**
  * Represents a signature field of a [[PDFForm]].
  *

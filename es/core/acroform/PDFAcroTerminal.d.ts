@@ -1,8 +1,8 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFName from 'src/core/objects/PDFName';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFAcroField from 'src/core/acroform/PDFAcroField';
-import PDFWidgetAnnotation from 'src/core/annotation/PDFWidgetAnnotation';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFName from '../../core/objects/PDFName';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFAcroField from '../../core/acroform/PDFAcroField';
+import PDFWidgetAnnotation from '../../core/annotation/PDFWidgetAnnotation';
 declare class PDFAcroTerminal extends PDFAcroField {
     static fromDict: (dict: PDFDict, ref: PDFRef) => PDFAcroTerminal;
     FT(): PDFName;

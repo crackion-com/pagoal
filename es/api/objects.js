@@ -1,4 +1,4 @@
-import { PDFName, PDFNumber } from 'src/core';
+import { PDFName, PDFNumber } from '../core';
 export var asPDFName = function (name) {
     return name instanceof PDFName ? name : PDFName.of(name);
 };

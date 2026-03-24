@@ -1,9 +1,9 @@
-import PDFHeader from 'src/core/document/PDFHeader';
-import PDFTrailer from 'src/core/document/PDFTrailer';
-import PDFObject from 'src/core/objects/PDFObject';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
-import PDFWriter from 'src/core/writers/PDFWriter';
+import PDFHeader from '../../core/document/PDFHeader';
+import PDFTrailer from '../../core/document/PDFTrailer';
+import PDFObject from '../../core/objects/PDFObject';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import PDFWriter from '../../core/writers/PDFWriter';
 declare class PDFStreamWriter extends PDFWriter {
     static forContext: (context: PDFContext, objectsPerTick: number, encodeStreams?: boolean, objectsPerStream?: number) => PDFStreamWriter;
     private readonly encodeStreams;

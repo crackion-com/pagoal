@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFFlateStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFFlateStream"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var utils_1 = require("src/utils");
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFFlateStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFFlateStream"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var utils_1 = require("../../utils");
 var PDFObjectStream = /** @class */ (function (_super) {
     tslib_1.__extends(PDFObjectStream, _super);
     function PDFObjectStream(context, objects, encode) {

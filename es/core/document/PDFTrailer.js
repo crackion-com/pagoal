@@ -1,5 +1,5 @@
-import CharCodes from 'src/core/syntax/CharCodes';
-import { copyStringIntoBuffer } from 'src/utils';
+import CharCodes from '../../core/syntax/CharCodes';
+import { copyStringIntoBuffer } from '../../utils';
 var PDFTrailer = /** @class */ (function () {
     function PDFTrailer(lastXRefOffset) {
         this.lastXRefOffset = String(lastXRefOffset);

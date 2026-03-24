@@ -1,11 +1,11 @@
 import { __awaiter, __generator } from "tslib";
-import PDFCrossRefSection from 'src/core/document/PDFCrossRefSection';
-import PDFHeader from 'src/core/document/PDFHeader';
-import PDFTrailer from 'src/core/document/PDFTrailer';
-import PDFTrailerDict from 'src/core/document/PDFTrailerDict';
-import PDFObjectStream from 'src/core/structures/PDFObjectStream';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { copyStringIntoBuffer, waitForTick } from 'src/utils';
+import PDFCrossRefSection from '../../core/document/PDFCrossRefSection';
+import PDFHeader from '../../core/document/PDFHeader';
+import PDFTrailer from '../../core/document/PDFTrailer';
+import PDFTrailerDict from '../../core/document/PDFTrailerDict';
+import PDFObjectStream from '../../core/structures/PDFObjectStream';
+import CharCodes from '../../core/syntax/CharCodes';
+import { copyStringIntoBuffer, waitForTick } from '../../utils';
 var PDFWriter = /** @class */ (function () {
     function PDFWriter(context, objectsPerTick) {
         var _this = this;

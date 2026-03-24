@@ -1,8 +1,8 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFPage from 'src/api/PDFPage';
-import PDFField, { FieldAppearanceOptions } from 'src/api/form/PDFField';
-import { AppearanceProviderFor } from 'src/api/form/appearances';
-import { PDFRef, PDFAcroRadioButton } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFPage from '../../api/PDFPage';
+import PDFField, { FieldAppearanceOptions } from '../../api/form/PDFField';
+import { AppearanceProviderFor } from '../../api/form/appearances';
+import { PDFRef, PDFAcroRadioButton } from '../../core';
 /**
  * Represents a radio group field of a [[PDFForm]].
  *

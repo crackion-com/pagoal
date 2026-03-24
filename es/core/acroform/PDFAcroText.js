@@ -1,9 +1,9 @@
 import { __extends } from "tslib";
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFString from 'src/core/objects/PDFString';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroTerminal from 'src/core/acroform/PDFAcroTerminal';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFString from '../../core/objects/PDFString';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroTerminal from '../../core/acroform/PDFAcroTerminal';
 var PDFAcroText = /** @class */ (function (_super) {
     __extends(PDFAcroText, _super);
     function PDFAcroText() {

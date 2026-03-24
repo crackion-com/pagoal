@@ -1,7 +1,7 @@
 import { __awaiter, __generator } from "tslib";
-import PDFDocument from 'src/api/PDFDocument';
-import { JpegEmbedder, PDFRef, PngEmbedder } from 'src/core';
-import { assertIs } from 'src/utils';
+import PDFDocument from '../api/PDFDocument';
+import { JpegEmbedder, PDFRef, PngEmbedder } from '../core';
+import { assertIs } from '../utils';
 /**
  * Represents an image that has been embedded in a [[PDFDocument]].
  */

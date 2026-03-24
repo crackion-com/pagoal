@@ -6,7 +6,7 @@
  * under the Apache 2.0 open source license.
  */
 import { __extends } from "tslib";
-import DecodeStream from 'src/core/streams/DecodeStream';
+import DecodeStream from '../../core/streams/DecodeStream';
 var AsciiHexStream = /** @class */ (function (_super) {
     __extends(AsciiHexStream, _super);
     function AsciiHexStream(stream, maybeLength) {

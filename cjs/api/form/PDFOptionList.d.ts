@@ -1,9 +1,9 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFPage from 'src/api/PDFPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFField, { FieldAppearanceOptions } from 'src/api/form/PDFField';
-import { AppearanceProviderFor } from 'src/api/form/appearances';
-import { PDFRef, PDFAcroListBox } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFPage from '../../api/PDFPage';
+import PDFFont from '../../api/PDFFont';
+import PDFField, { FieldAppearanceOptions } from '../../api/form/PDFField';
+import { AppearanceProviderFor } from '../../api/form/appearances';
+import { PDFRef, PDFAcroListBox } from '../../core';
 /**
  * Represents an option list field of a [[PDFForm]].
  *

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.rotateRectangle = exports.adjustDimsForRotation = exports.reduceRotation = exports.toDegrees = exports.toRadians = exports.radiansToDegrees = exports.degreesToRadians = exports.degrees = exports.radians = exports.RotationTypes = void 0;
-var utils_1 = require("src/utils");
+var utils_1 = require("../utils");
 var RotationTypes;
 (function (RotationTypes) {
     RotationTypes["Degrees"] = "degrees";

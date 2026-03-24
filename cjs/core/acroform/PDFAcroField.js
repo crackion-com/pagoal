@@ -1,15 +1,15 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFString_1 = tslib_1.__importDefault(require("src/core/objects/PDFString"));
-var PDFHexString_1 = tslib_1.__importDefault(require("src/core/objects/PDFHexString"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var utils_1 = require("src/utils");
-var errors_1 = require("src/core/errors");
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFString_1 = tslib_1.__importDefault(require("../../core/objects/PDFString"));
+var PDFHexString_1 = tslib_1.__importDefault(require("../../core/objects/PDFHexString"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var utils_1 = require("../../utils");
+var errors_1 = require("../../core/errors");
 // Examples:
 //   `/Helv 12 Tf` -> ['Helv', '12']
 //   `/HeBo 8.00 Tf` -> ['HeBo', '8.00']

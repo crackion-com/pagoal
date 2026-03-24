@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
 // TODO: Also handle the `/S` and `/D` entries
 var BorderStyle = /** @class */ (function () {
     function BorderStyle(dict) {

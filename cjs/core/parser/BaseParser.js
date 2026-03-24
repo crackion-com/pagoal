@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var Numeric_1 = require("src/core/syntax/Numeric");
-var Whitespace_1 = require("src/core/syntax/Whitespace");
-var utils_1 = require("src/utils");
+var errors_1 = require("../../core/errors");
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var Numeric_1 = require("../../core/syntax/Numeric");
+var Whitespace_1 = require("../../core/syntax/Whitespace");
+var utils_1 = require("../../utils");
 var Newline = CharCodes_1.default.Newline, CarriageReturn = CharCodes_1.default.CarriageReturn;
 // TODO: Throw error if eof is reached before finishing object parse...
 var BaseParser = /** @class */ (function () {

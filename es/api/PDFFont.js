@@ -1,7 +1,7 @@
 import { __awaiter, __generator } from "tslib";
-import PDFDocument from 'src/api/PDFDocument';
-import { CustomFontEmbedder, PDFRef, StandardFontEmbedder, } from 'src/core';
-import { assertIs, assertOrUndefined } from 'src/utils';
+import PDFDocument from '../api/PDFDocument';
+import { CustomFontEmbedder, PDFRef, StandardFontEmbedder, } from '../core';
+import { assertIs, assertOrUndefined } from '../utils';
 /**
  * Represents a font that has been embedded in a [[PDFDocument]].
  */

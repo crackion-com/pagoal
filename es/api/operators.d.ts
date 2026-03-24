@@ -1,4 +1,4 @@
-import { PDFHexString, PDFName, PDFNumber, PDFOperator } from 'src/core';
+import { PDFHexString, PDFName, PDFNumber, PDFOperator } from '../core';
 export declare const clip: () => PDFOperator;
 export declare const clipEvenOdd: () => PDFOperator;
 export declare const concatTransformationMatrix: (a: number | PDFNumber, b: number | PDFNumber, c: number | PDFNumber, d: number | PDFNumber, e: number | PDFNumber, f: number | PDFNumber) => PDFOperator;

@@ -1,4 +1,4 @@
-import PDFDict from 'src/core/objects/PDFDict';
+import PDFDict from '../../core/objects/PDFDict';
 declare class PDFTrailerDict {
     static of: (dict: PDFDict) => PDFTrailerDict;
     readonly dict: PDFDict;

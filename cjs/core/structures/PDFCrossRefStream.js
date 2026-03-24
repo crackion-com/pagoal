@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.EntryType = void 0;
 var tslib_1 = require("tslib");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var PDFFlateStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFFlateStream"));
-var utils_1 = require("src/utils");
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var PDFFlateStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFFlateStream"));
+var utils_1 = require("../../utils");
 var EntryType;
 (function (EntryType) {
     EntryType[EntryType["Deleted"] = 0] = "Deleted";

@@ -1,15 +1,15 @@
 import { __awaiter, __extends, __generator } from "tslib";
-import PDFHeader from 'src/core/document/PDFHeader';
-import PDFTrailer from 'src/core/document/PDFTrailer';
-import PDFInvalidObject from 'src/core/objects/PDFInvalidObject';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFStream from 'src/core/objects/PDFStream';
-import PDFCrossRefStream from 'src/core/structures/PDFCrossRefStream';
-import PDFObjectStream from 'src/core/structures/PDFObjectStream';
-import PDFWriter from 'src/core/writers/PDFWriter';
-import { last, waitForTick } from 'src/utils';
+import PDFHeader from '../../core/document/PDFHeader';
+import PDFTrailer from '../../core/document/PDFTrailer';
+import PDFInvalidObject from '../../core/objects/PDFInvalidObject';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFStream from '../../core/objects/PDFStream';
+import PDFCrossRefStream from '../../core/structures/PDFCrossRefStream';
+import PDFObjectStream from '../../core/structures/PDFObjectStream';
+import PDFWriter from '../../core/writers/PDFWriter';
+import { last, waitForTick } from '../../utils';
 var PDFStreamWriter = /** @class */ (function (_super) {
     __extends(PDFStreamWriter, _super);
     function PDFStreamWriter(context, objectsPerTick, encodeStreams, objectsPerStream) {

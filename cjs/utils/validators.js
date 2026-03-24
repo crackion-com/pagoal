@@ -2,7 +2,7 @@
 /* tslint:disable:ban-types */
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.assertPositive = exports.assertInteger = exports.assertMultiple = exports.assertRangeOrUndefined = exports.assertRange = exports.assertEachIs = exports.assertOrUndefined = exports.assertIs = exports.createTypeErrorMsg = exports.isType = exports.getType = exports.assertIsSubset = exports.assertIsOneOfOrUndefined = exports.assertIsOneOf = exports.createValueErrorMsg = exports.singleQuote = exports.backtick = void 0;
-var objects_1 = require("src/utils/objects");
+var objects_1 = require("../utils/objects");
 exports.backtick = function (val) { return "`" + val + "`"; };
 exports.singleQuote = function (val) { return "'" + val + "'"; };
 // prettier-ignore

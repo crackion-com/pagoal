@@ -1,5 +1,5 @@
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
 // TODO: Also handle the `/S` and `/D` entries
 var BorderStyle = /** @class */ (function () {
     function BorderStyle(dict) {

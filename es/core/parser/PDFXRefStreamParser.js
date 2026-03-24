@@ -1,9 +1,9 @@
-import { ReparseError } from 'src/core/errors';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFRef from 'src/core/objects/PDFRef';
-import ByteStream from 'src/core/parser/ByteStream';
+import { ReparseError } from '../../core/errors';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFRef from '../../core/objects/PDFRef';
+import ByteStream from '../../core/parser/ByteStream';
 var PDFXRefStreamParser = /** @class */ (function () {
     function PDFXRefStreamParser(rawStream) {
         this.alreadyParsed = false;

@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var ByteStream_1 = tslib_1.__importDefault(require("src/core/parser/ByteStream"));
+var errors_1 = require("../../core/errors");
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var ByteStream_1 = tslib_1.__importDefault(require("../../core/parser/ByteStream"));
 var PDFXRefStreamParser = /** @class */ (function () {
     function PDFXRefStreamParser(rawStream) {
         this.alreadyParsed = false;

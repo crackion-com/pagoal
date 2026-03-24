@@ -1,4 +1,4 @@
-import { MethodNotImplementedError } from 'src/core/errors';
+import { MethodNotImplementedError } from '../../core/errors';
 var PDFObject = /** @class */ (function () {
     function PDFObject() {
     }

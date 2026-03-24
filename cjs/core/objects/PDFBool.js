@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var PDFObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFObject"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
+var errors_1 = require("../../core/errors");
+var PDFObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFObject"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
 var ENFORCER = {};
 var PDFBool = /** @class */ (function (_super) {
     tslib_1.__extends(PDFBool, _super);

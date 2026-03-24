@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFAcroButton_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroButton"));
-var flags_1 = require("src/core/acroform/flags");
+var PDFAcroButton_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroButton"));
+var flags_1 = require("../../core/acroform/flags");
 var PDFAcroPushButton = /** @class */ (function (_super) {
     tslib_1.__extends(PDFAcroPushButton, _super);
     function PDFAcroPushButton() {

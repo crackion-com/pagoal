@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFAcroChoice_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroChoice"));
+var PDFAcroChoice_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroChoice"));
 var PDFAcroListBox = /** @class */ (function (_super) {
     tslib_1.__extends(PDFAcroListBox, _super);
     function PDFAcroListBox() {

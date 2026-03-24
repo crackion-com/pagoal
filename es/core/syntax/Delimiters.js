@@ -1,4 +1,4 @@
-import CharCodes from 'src/core/syntax/CharCodes';
+import CharCodes from '../../core/syntax/CharCodes';
 export var IsDelimiter = new Uint8Array(256);
 IsDelimiter[CharCodes.LeftParen] = 1;
 IsDelimiter[CharCodes.RightParen] = 1;

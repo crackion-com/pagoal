@@ -1,10 +1,10 @@
 import { __extends } from "tslib";
-import PDFString from 'src/core/objects/PDFString';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroTerminal from 'src/core/acroform/PDFAcroTerminal';
-import { IndexOutOfBoundsError } from 'src/core/errors';
+import PDFString from '../../core/objects/PDFString';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroTerminal from '../../core/acroform/PDFAcroTerminal';
+import { IndexOutOfBoundsError } from '../../core/errors';
 var PDFAcroButton = /** @class */ (function (_super) {
     __extends(PDFAcroButton, _super);
     function PDFAcroButton() {

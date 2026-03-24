@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFHexString extends PDFObject {
     static of: (value: string) => PDFHexString;
     static fromText: (value: string) => PDFHexString;

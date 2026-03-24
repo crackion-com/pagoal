@@ -2,8 +2,8 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.AFRelationship = void 0;
 var tslib_1 = require("tslib");
-var PDFString_1 = tslib_1.__importDefault(require("src/core/objects/PDFString"));
-var PDFHexString_1 = tslib_1.__importDefault(require("src/core/objects/PDFHexString"));
+var PDFString_1 = tslib_1.__importDefault(require("../../core/objects/PDFString"));
+var PDFHexString_1 = tslib_1.__importDefault(require("../../core/objects/PDFHexString"));
 /**
  * From the PDF-A3 specification, section **3.1. Requirements - General**.
  * See:

@@ -2,10 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
 var pako_1 = tslib_1.__importDefault(require("pako"));
-var errors_1 = require("src/core/errors");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFStream"));
-var utils_1 = require("src/utils");
+var errors_1 = require("../../core/errors");
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFStream_1 = tslib_1.__importDefault(require("../../core/objects/PDFStream"));
+var utils_1 = require("../../utils");
 var PDFFlateStream = /** @class */ (function (_super) {
     tslib_1.__extends(PDFFlateStream, _super);
     function PDFFlateStream(dict, encode) {

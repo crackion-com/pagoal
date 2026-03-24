@@ -1,8 +1,8 @@
 import { __extends } from "tslib";
-import PDFName from 'src/core/objects/PDFName';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFFlateStream from 'src/core/structures/PDFFlateStream';
-import { bytesFor, Cache, reverseArray, sizeInBytes, sum } from 'src/utils';
+import PDFName from '../../core/objects/PDFName';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFFlateStream from '../../core/structures/PDFFlateStream';
+import { bytesFor, Cache, reverseArray, sizeInBytes, sum } from '../../utils';
 export var EntryType;
 (function (EntryType) {
     EntryType[EntryType["Deleted"] = 0] = "Deleted";

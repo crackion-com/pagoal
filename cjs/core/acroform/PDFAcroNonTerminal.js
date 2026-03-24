@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFAcroField_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroField"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFAcroField_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroField"));
 var PDFAcroNonTerminal = /** @class */ (function (_super) {
     tslib_1.__extends(PDFAcroNonTerminal, _super);
     function PDFAcroNonTerminal() {

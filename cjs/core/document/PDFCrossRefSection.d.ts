@@ -1,4 +1,4 @@
-import PDFRef from 'src/core/objects/PDFRef';
+import PDFRef from '../../core/objects/PDFRef';
 export interface Entry {
     ref: PDFRef;
     offset: number;

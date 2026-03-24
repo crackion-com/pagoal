@@ -1,7 +1,7 @@
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
-import PDFPageLeaf from 'src/core/structures/PDFPageLeaf';
-import { TransformationMatrix } from 'src/types/matrix';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import PDFPageLeaf from '../../core/structures/PDFPageLeaf';
+import { TransformationMatrix } from '../../types/matrix';
 /**
  * Represents a page bounding box.
  * Usually `left` and `bottom` are 0 and right, top are equal

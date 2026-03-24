@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFFlateStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFFlateStream"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
+var PDFFlateStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFFlateStream"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
 var PDFContentStream = /** @class */ (function (_super) {
     tslib_1.__extends(PDFContentStream, _super);
     function PDFContentStream(dict, operators, encode) {

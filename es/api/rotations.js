@@ -1,4 +1,4 @@
-import { assertIs, error } from 'src/utils';
+import { assertIs, error } from '../utils';
 export var RotationTypes;
 (function (RotationTypes) {
     RotationTypes["Degrees"] = "degrees";

@@ -1,4 +1,4 @@
-import ByteStream from 'src/core/parser/ByteStream';
+import ByteStream from '../../core/parser/ByteStream';
 declare class BaseParser {
     protected readonly bytes: ByteStream;
     protected readonly capNumbers: boolean;

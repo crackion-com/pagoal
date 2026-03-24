@@ -1,5 +1,5 @@
 import { __extends } from "tslib";
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 var PDFInvalidObject = /** @class */ (function (_super) {
     __extends(PDFInvalidObject, _super);
     function PDFInvalidObject(data) {

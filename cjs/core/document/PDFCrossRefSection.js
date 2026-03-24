@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var utils_1 = require("src/utils");
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var utils_1 = require("../../utils");
 /**
  * Entries should be added using the [[addEntry]] and [[addDeletedEntry]]
  * methods **in order of ascending object number**.

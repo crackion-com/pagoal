@@ -1,5 +1,5 @@
-import PDFContext from 'src/core/PDFContext';
-import PDFRef from 'src/core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import PDFRef from '../../core/objects/PDFRef';
 /**
  * From the PDF-A3 specification, section **3.1. Requirements - General**.
  * See:

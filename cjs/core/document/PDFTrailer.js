@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var utils_1 = require("src/utils");
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var utils_1 = require("../../utils");
 var PDFTrailer = /** @class */ (function () {
     function PDFTrailer(lastXRefOffset) {
         this.lastXRefOffset = String(lastXRefOffset);

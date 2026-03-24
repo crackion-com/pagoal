@@ -1,5 +1,5 @@
-import PDFObjectParser from 'src/core/parser/PDFObjectParser';
-import PDFContext from 'src/core/PDFContext';
+import PDFObjectParser from '../../core/parser/PDFObjectParser';
+import PDFContext from '../../core/PDFContext';
 declare class PDFParser extends PDFObjectParser {
     static forBytesWithOptions: (pdfBytes: Uint8Array, objectsPerTick?: number | undefined, throwOnInvalidObject?: boolean | undefined, capNumbers?: boolean | undefined) => PDFParser;
     private readonly objectsPerTick;

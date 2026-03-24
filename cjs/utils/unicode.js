@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.hasUtf16BOM = exports.utf16Decode = exports.lowSurrogate = exports.highSurrogate = exports.hasSurrogates = exports.isWithinBMP = exports.utf16Encode = exports.utf8Encode = void 0;
-var strings_1 = require("src/utils/strings");
+var strings_1 = require("../utils/strings");
 /**
  * Encodes a string to UTF-8.
  *

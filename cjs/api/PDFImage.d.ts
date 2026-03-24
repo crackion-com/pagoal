@@ -1,6 +1,6 @@
-import Embeddable from 'src/api/Embeddable';
-import PDFDocument from 'src/api/PDFDocument';
-import { JpegEmbedder, PDFRef, PngEmbedder } from 'src/core';
+import Embeddable from '../api/Embeddable';
+import PDFDocument from '../api/PDFDocument';
+import { JpegEmbedder, PDFRef, PngEmbedder } from '../core';
 export declare type ImageEmbedder = JpegEmbedder | PngEmbedder;
 /**
  * Represents an image that has been embedded in a [[PDFDocument]].

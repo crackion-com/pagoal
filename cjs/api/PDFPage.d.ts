@@ -1,11 +1,11 @@
-import { Color } from 'src/api/colors';
-import PDFDocument from 'src/api/PDFDocument';
-import PDFEmbeddedPage from 'src/api/PDFEmbeddedPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFImage from 'src/api/PDFImage';
-import { PDFPageDrawCircleOptions, PDFPageDrawEllipseOptions, PDFPageDrawImageOptions, PDFPageDrawLineOptions, PDFPageDrawPageOptions, PDFPageDrawRectangleOptions, PDFPageDrawSquareOptions, PDFPageDrawSVGOptions, PDFPageDrawTextOptions } from 'src/api/PDFPageOptions';
-import { Rotation } from 'src/api/rotations';
-import { PDFOperator, PDFPageLeaf, PDFRef } from 'src/core';
+import { Color } from '../api/colors';
+import PDFDocument from '../api/PDFDocument';
+import PDFEmbeddedPage from '../api/PDFEmbeddedPage';
+import PDFFont from '../api/PDFFont';
+import PDFImage from '../api/PDFImage';
+import { PDFPageDrawCircleOptions, PDFPageDrawEllipseOptions, PDFPageDrawImageOptions, PDFPageDrawLineOptions, PDFPageDrawPageOptions, PDFPageDrawRectangleOptions, PDFPageDrawSquareOptions, PDFPageDrawSVGOptions, PDFPageDrawTextOptions } from '../api/PDFPageOptions';
+import { Rotation } from '../api/rotations';
+import { PDFOperator, PDFPageLeaf, PDFRef } from '../core';
 /**
  * Represents a single page of a [[PDFDocument]].
  */

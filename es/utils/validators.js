@@ -1,5 +1,5 @@
 /* tslint:disable:ban-types */
-import { values as objectValues } from 'src/utils/objects';
+import { values as objectValues } from '../utils/objects';
 export var backtick = function (val) { return "`" + val + "`"; };
 export var singleQuote = function (val) { return "'" + val + "'"; };
 // prettier-ignore

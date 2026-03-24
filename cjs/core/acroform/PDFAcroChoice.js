@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFAcroTerminal_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroTerminal"));
-var PDFHexString_1 = tslib_1.__importDefault(require("src/core/objects/PDFHexString"));
-var PDFString_1 = tslib_1.__importDefault(require("src/core/objects/PDFString"));
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var flags_1 = require("src/core/acroform/flags");
-var errors_1 = require("src/core/errors");
+var PDFAcroTerminal_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroTerminal"));
+var PDFHexString_1 = tslib_1.__importDefault(require("../../core/objects/PDFHexString"));
+var PDFString_1 = tslib_1.__importDefault(require("../../core/objects/PDFString"));
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var flags_1 = require("../../core/acroform/flags");
+var errors_1 = require("../../core/errors");
 var PDFAcroChoice = /** @class */ (function (_super) {
     tslib_1.__extends(PDFAcroChoice, _super);
     function PDFAcroChoice() {

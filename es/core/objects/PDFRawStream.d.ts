@@ -1,6 +1,6 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFStream from 'src/core/objects/PDFStream';
-import PDFContext from 'src/core/PDFContext';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFStream from '../../core/objects/PDFStream';
+import PDFContext from '../../core/PDFContext';
 declare class PDFRawStream extends PDFStream {
     static of: (dict: PDFDict, contents: Uint8Array) => PDFRawStream;
     readonly contents: Uint8Array;

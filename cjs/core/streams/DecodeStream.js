@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var Stream_1 = tslib_1.__importDefault(require("src/core/streams/Stream"));
+var errors_1 = require("../../core/errors");
+var Stream_1 = tslib_1.__importDefault(require("../../core/streams/Stream"));
 /*
  * Copyright 2012 Mozilla Foundation
  *

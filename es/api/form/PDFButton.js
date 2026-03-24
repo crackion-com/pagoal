@@ -1,13 +1,13 @@
 import { __extends } from "tslib";
-import PDFPage from 'src/api/PDFPage';
-import PDFFont from 'src/api/PDFFont';
-import { ImageAlignment } from 'src/api/image/alignment';
-import { normalizeAppearance, defaultButtonAppearanceProvider, } from 'src/api/form/appearances';
-import PDFField, { assertFieldAppearanceOptions, } from 'src/api/form/PDFField';
-import { rgb } from 'src/api/colors';
-import { degrees } from 'src/api/rotations';
-import { PDFStream, PDFAcroPushButton, } from 'src/core';
-import { assertIs, assertOrUndefined, assertPositive } from 'src/utils';
+import PDFPage from '../../api/PDFPage';
+import PDFFont from '../../api/PDFFont';
+import { ImageAlignment } from '../../api/image/alignment';
+import { normalizeAppearance, defaultButtonAppearanceProvider, } from '../../api/form/appearances';
+import PDFField, { assertFieldAppearanceOptions, } from '../../api/form/PDFField';
+import { rgb } from '../../api/colors';
+import { degrees } from '../../api/rotations';
+import { PDFStream, PDFAcroPushButton, } from '../../core';
+import { assertIs, assertOrUndefined, assertPositive } from '../../utils';
 /**
  * Represents a button field of a [[PDFForm]].
  *

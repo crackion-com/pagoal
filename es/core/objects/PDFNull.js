@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
 var PDFNull = /** @class */ (function (_super) {
     __extends(PDFNull, _super);
     function PDFNull() {

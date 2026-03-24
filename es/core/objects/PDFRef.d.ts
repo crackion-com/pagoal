@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFRef extends PDFObject {
     static of: (objectNumber: number, generationNumber?: number) => PDFRef;
     readonly objectNumber: number;

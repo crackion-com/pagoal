@@ -1,12 +1,12 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFPageLeaf_1 = tslib_1.__importDefault(require("src/core/structures/PDFPageLeaf"));
-var errors_1 = require("src/core/errors");
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFPageLeaf_1 = tslib_1.__importDefault(require("../../core/structures/PDFPageLeaf"));
+var errors_1 = require("../../core/errors");
 var PDFPageTree = /** @class */ (function (_super) {
     tslib_1.__extends(PDFPageTree, _super);
     function PDFPageTree() {

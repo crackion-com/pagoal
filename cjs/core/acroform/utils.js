@@ -2,21 +2,21 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.createPDFAcroField = exports.createPDFAcroFields = void 0;
 var tslib_1 = require("tslib");
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var PDFAcroTerminal_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroTerminal"));
-var PDFAcroNonTerminal_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroNonTerminal"));
-var PDFAcroSignature_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroSignature"));
-var PDFAcroText_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroText"));
-var PDFAcroPushButton_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroPushButton"));
-var PDFAcroRadioButton_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroRadioButton"));
-var PDFAcroCheckBox_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroCheckBox"));
-var PDFAcroComboBox_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroComboBox"));
-var PDFAcroListBox_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroListBox"));
-var flags_1 = require("src/core/acroform/flags");
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var PDFAcroTerminal_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroTerminal"));
+var PDFAcroNonTerminal_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroNonTerminal"));
+var PDFAcroSignature_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroSignature"));
+var PDFAcroText_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroText"));
+var PDFAcroPushButton_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroPushButton"));
+var PDFAcroRadioButton_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroRadioButton"));
+var PDFAcroCheckBox_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroCheckBox"));
+var PDFAcroComboBox_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroComboBox"));
+var PDFAcroListBox_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroListBox"));
+var flags_1 = require("../../core/acroform/flags");
 exports.createPDFAcroFields = function (kidDicts) {
     if (!kidDicts)
         return [];

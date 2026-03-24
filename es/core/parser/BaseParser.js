@@ -1,8 +1,8 @@
-import { NumberParsingError } from 'src/core/errors';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { IsDigit, IsNumeric } from 'src/core/syntax/Numeric';
-import { IsWhitespace } from 'src/core/syntax/Whitespace';
-import { charFromCode } from 'src/utils';
+import { NumberParsingError } from '../../core/errors';
+import CharCodes from '../../core/syntax/CharCodes';
+import { IsDigit, IsNumeric } from '../../core/syntax/Numeric';
+import { IsWhitespace } from '../../core/syntax/Whitespace';
+import { charFromCode } from '../../utils';
 var Newline = CharCodes.Newline, CarriageReturn = CharCodes.CarriageReturn;
 // TODO: Throw error if eof is reached before finishing object parse...
 var BaseParser = /** @class */ (function () {

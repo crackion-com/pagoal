@@ -8,7 +8,7 @@
  */
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var DecodeStream_1 = tslib_1.__importDefault(require("src/core/streams/DecodeStream"));
+var DecodeStream_1 = tslib_1.__importDefault(require("../../core/streams/DecodeStream"));
 var RunLengthStream = /** @class */ (function (_super) {
     tslib_1.__extends(RunLengthStream, _super);
     function RunLengthStream(stream, maybeLength) {

@@ -6,7 +6,7 @@
  * under the Apache 2.0 open source license.
  */
 import { __extends } from "tslib";
-import DecodeStream from 'src/core/streams/DecodeStream';
+import DecodeStream from '../../core/streams/DecodeStream';
 var isSpace = function (ch) {
     return ch === 0x20 || ch === 0x09 || ch === 0x0d || ch === 0x0a;
 };

@@ -1,8 +1,8 @@
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFString from 'src/core/objects/PDFString';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFString from '../../core/objects/PDFString';
 var AppearanceCharacteristics = /** @class */ (function () {
     function AppearanceCharacteristics(dict) {
         this.dict = dict;

@@ -1,5 +1,5 @@
-import PDFRawStream from 'src/core/objects/PDFRawStream';
-import PDFObjectParser from 'src/core/parser/PDFObjectParser';
+import PDFRawStream from '../../core/objects/PDFRawStream';
+import PDFObjectParser from '../../core/parser/PDFObjectParser';
 declare class PDFObjectStreamParser extends PDFObjectParser {
     static forStream: (rawStream: PDFRawStream, shouldWaitForTick?: (() => boolean) | undefined) => PDFObjectStreamParser;
     private alreadyParsed;

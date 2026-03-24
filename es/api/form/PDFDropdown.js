@@ -1,12 +1,12 @@
 import { __extends } from "tslib";
-import PDFPage from 'src/api/PDFPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFField, { assertFieldAppearanceOptions, } from 'src/api/form/PDFField';
-import { normalizeAppearance, defaultDropdownAppearanceProvider, } from 'src/api/form/appearances';
-import { rgb } from 'src/api/colors';
-import { degrees } from 'src/api/rotations';
-import { PDFHexString, PDFStream, PDFAcroComboBox, AcroChoiceFlags, } from 'src/core';
-import { assertIs, assertOrUndefined, assertPositive } from 'src/utils';
+import PDFPage from '../../api/PDFPage';
+import PDFFont from '../../api/PDFFont';
+import PDFField, { assertFieldAppearanceOptions, } from '../../api/form/PDFField';
+import { normalizeAppearance, defaultDropdownAppearanceProvider, } from '../../api/form/appearances';
+import { rgb } from '../../api/colors';
+import { degrees } from '../../api/rotations';
+import { PDFHexString, PDFStream, PDFAcroComboBox, AcroChoiceFlags, } from '../../core';
+import { assertIs, assertOrUndefined, assertPositive } from '../../utils';
 /**
  * Represents a dropdown field of a [[PDFForm]].
  *

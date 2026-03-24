@@ -1,6 +1,6 @@
-import { asNumber, asPDFName, asPDFNumber } from 'src/api/objects';
-import { degreesToRadians } from 'src/api/rotations';
-import { PDFOperator, PDFOperatorNames as Ops, } from 'src/core';
+import { asNumber, asPDFName, asPDFNumber } from '../api/objects';
+import { degreesToRadians } from '../api/rotations';
+import { PDFOperator, PDFOperatorNames as Ops, } from '../core';
 /* ==================== Clipping Path Operators ==================== */
 export var clip = function () { return PDFOperator.of(Ops.ClipNonZero); };
 export var clipEvenOdd = function () { return PDFOperator.of(Ops.ClipEvenOdd); };

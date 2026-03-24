@@ -1,5 +1,5 @@
 import { __extends } from "tslib";
-import PDFAcroTerminal from 'src/core/acroform/PDFAcroTerminal';
+import PDFAcroTerminal from '../../core/acroform/PDFAcroTerminal';
 var PDFAcroSignature = /** @class */ (function (_super) {
     __extends(PDFAcroSignature, _super);
     function PDFAcroSignature() {

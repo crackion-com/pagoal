@@ -1,7 +1,7 @@
 import { __extends } from "tslib";
-import PDFField from 'src/api/form/PDFField';
-import { PDFAcroSignature } from 'src/core';
-import { assertIs } from 'src/utils';
+import PDFField from '../../api/form/PDFField';
+import { PDFAcroSignature } from '../../core';
+import { assertIs } from '../../utils';
 /**
  * Represents a signature field of a [[PDFForm]].
  *

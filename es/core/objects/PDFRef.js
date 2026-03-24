@@ -1,7 +1,7 @@
 import { __extends } from "tslib";
-import { PrivateConstructorError } from 'src/core/errors';
-import PDFObject from 'src/core/objects/PDFObject';
-import { copyStringIntoBuffer } from 'src/utils';
+import { PrivateConstructorError } from '../../core/errors';
+import PDFObject from '../../core/objects/PDFObject';
+import { copyStringIntoBuffer } from '../../utils';
 var ENFORCER = {};
 var pool = new Map();
 var PDFRef = /** @class */ (function (_super) {

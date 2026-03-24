@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import PDFFlateStream from 'src/core/structures/PDFFlateStream';
-import CharCodes from 'src/core/syntax/CharCodes';
+import PDFFlateStream from '../../core/structures/PDFFlateStream';
+import CharCodes from '../../core/syntax/CharCodes';
 var PDFContentStream = /** @class */ (function (_super) {
     __extends(PDFContentStream, _super);
     function PDFContentStream(dict, operators, encode) {

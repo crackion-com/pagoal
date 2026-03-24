@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFNumber extends PDFObject {
     static of: (value: number) => PDFNumber;
     private readonly numberValue;

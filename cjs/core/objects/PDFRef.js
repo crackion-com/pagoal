@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var PDFObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFObject"));
-var utils_1 = require("src/utils");
+var errors_1 = require("../../core/errors");
+var PDFObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFObject"));
+var utils_1 = require("../../utils");
 var ENFORCER = {};
 var pool = new Map();
 var PDFRef = /** @class */ (function (_super) {

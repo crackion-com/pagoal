@@ -1,5 +1,5 @@
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
 declare enum ColorSpace {
     DeviceGray = "DeviceGray",
     DeviceRGB = "DeviceRGB",

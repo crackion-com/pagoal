@@ -1,9 +1,9 @@
 import { __extends } from "tslib";
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroField from 'src/core/acroform/PDFAcroField';
-import PDFWidgetAnnotation from 'src/core/annotation/PDFWidgetAnnotation';
-import { IndexOutOfBoundsError } from 'src/core/errors';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroField from '../../core/acroform/PDFAcroField';
+import PDFWidgetAnnotation from '../../core/annotation/PDFWidgetAnnotation';
+import { IndexOutOfBoundsError } from '../../core/errors';
 var PDFAcroTerminal = /** @class */ (function (_super) {
     __extends(PDFAcroTerminal, _super);
     function PDFAcroTerminal() {

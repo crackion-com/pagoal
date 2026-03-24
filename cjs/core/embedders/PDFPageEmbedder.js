@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFRawStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFRawStream"));
-var PDFStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFStream"));
-var decode_1 = require("src/core/streams/decode");
-var PDFContentStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFContentStream"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
-var utils_1 = require("src/utils");
+var errors_1 = require("../../core/errors");
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFRawStream_1 = tslib_1.__importDefault(require("../../core/objects/PDFRawStream"));
+var PDFStream_1 = tslib_1.__importDefault(require("../../core/objects/PDFStream"));
+var decode_1 = require("../../core/streams/decode");
+var PDFContentStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFContentStream"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
+var utils_1 = require("../../utils");
 var fullPageBoundingBox = function (page) {
     var mediaBox = page.MediaBox();
     var width = mediaBox.lookup(2, PDFNumber_1.default).asNumber() -

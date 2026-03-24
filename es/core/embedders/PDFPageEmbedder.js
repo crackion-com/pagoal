@@ -1,12 +1,12 @@
 import { __awaiter, __generator } from "tslib";
-import { MissingPageContentsEmbeddingError, UnrecognizedStreamTypeError, } from 'src/core/errors';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFRawStream from 'src/core/objects/PDFRawStream';
-import PDFStream from 'src/core/objects/PDFStream';
-import { decodePDFRawStream } from 'src/core/streams/decode';
-import PDFContentStream from 'src/core/structures/PDFContentStream';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { mergeIntoTypedArray } from 'src/utils';
+import { MissingPageContentsEmbeddingError, UnrecognizedStreamTypeError, } from '../../core/errors';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFRawStream from '../../core/objects/PDFRawStream';
+import PDFStream from '../../core/objects/PDFStream';
+import { decodePDFRawStream } from '../../core/streams/decode';
+import PDFContentStream from '../../core/structures/PDFContentStream';
+import CharCodes from '../../core/syntax/CharCodes';
+import { mergeIntoTypedArray } from '../../utils';
 var fullPageBoundingBox = function (page) {
     var mediaBox = page.MediaBox();
     var width = mediaBox.lookup(2, PDFNumber).asNumber() -

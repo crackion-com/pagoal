@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFNull extends PDFObject {
     asNull(): null;
     clone(): PDFNull;

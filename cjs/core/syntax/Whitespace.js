@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IsWhitespace = void 0;
 var tslib_1 = require("tslib");
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
 exports.IsWhitespace = new Uint8Array(256);
 exports.IsWhitespace[CharCodes_1.default.Null] = 1;
 exports.IsWhitespace[CharCodes_1.default.Tab] = 1;

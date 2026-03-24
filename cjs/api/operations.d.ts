@@ -1,7 +1,7 @@
-import { Color } from 'src/api/colors';
-import { scale, LineCapStyle } from 'src/api/operators';
-import { Rotation } from 'src/api/rotations';
-import { PDFHexString, PDFName, PDFNumber, PDFOperator } from 'src/core';
+import { Color } from '../api/colors';
+import { scale, LineCapStyle } from '../api/operators';
+import { Rotation } from '../api/rotations';
+import { PDFHexString, PDFName, PDFNumber, PDFOperator } from '../core';
 export interface DrawTextOptions {
     color: Color;
     font: string | PDFName;

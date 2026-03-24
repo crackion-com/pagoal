@@ -1,18 +1,18 @@
 import { __awaiter, __generator, __rest } from "tslib";
-import { EncryptedPDFError, FontkitNotRegisteredError, ForeignPageError, RemovePageFromEmptyDocumentError, } from 'src/api/errors';
-import PDFEmbeddedPage from 'src/api/PDFEmbeddedPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFImage from 'src/api/PDFImage';
-import PDFPage from 'src/api/PDFPage';
-import PDFForm from 'src/api/form/PDFForm';
-import { PageSizes } from 'src/api/sizes';
-import { CustomFontEmbedder, CustomFontSubsetEmbedder, JpegEmbedder, PageEmbeddingMismatchedContextError, PDFCatalog, PDFContext, PDFDict, PDFHexString, PDFName, PDFObjectCopier, PDFPageEmbedder, PDFPageLeaf, PDFPageTree, PDFParser, PDFStreamWriter, PDFString, PDFWriter, PngEmbedder, StandardFontEmbedder, UnexpectedObjectTypeError, } from 'src/core';
-import { ParseSpeeds, } from 'src/api/PDFDocumentOptions';
-import { assertIs, assertIsOneOfOrUndefined, assertOrUndefined, assertRange, Cache, canBeConvertedToUint8Array, encodeToBase64, isStandardFont, pluckIndices, range, toUint8Array, } from 'src/utils';
-import FileEmbedder, { AFRelationship } from 'src/core/embedders/FileEmbedder';
-import PDFEmbeddedFile from 'src/api/PDFEmbeddedFile';
-import PDFJavaScript from 'src/api/PDFJavaScript';
-import JavaScriptEmbedder from 'src/core/embedders/JavaScriptEmbedder';
+import { EncryptedPDFError, FontkitNotRegisteredError, ForeignPageError, RemovePageFromEmptyDocumentError, } from '../api/errors';
+import PDFEmbeddedPage from '../api/PDFEmbeddedPage';
+import PDFFont from '../api/PDFFont';
+import PDFImage from '../api/PDFImage';
+import PDFPage from '../api/PDFPage';
+import PDFForm from '../api/form/PDFForm';
+import { PageSizes } from '../api/sizes';
+import { CustomFontEmbedder, CustomFontSubsetEmbedder, JpegEmbedder, PageEmbeddingMismatchedContextError, PDFCatalog, PDFContext, PDFDict, PDFHexString, PDFName, PDFObjectCopier, PDFPageEmbedder, PDFPageLeaf, PDFPageTree, PDFParser, PDFStreamWriter, PDFString, PDFWriter, PngEmbedder, StandardFontEmbedder, UnexpectedObjectTypeError, } from '../core';
+import { ParseSpeeds, } from '../api/PDFDocumentOptions';
+import { assertIs, assertIsOneOfOrUndefined, assertOrUndefined, assertRange, Cache, canBeConvertedToUint8Array, encodeToBase64, isStandardFont, pluckIndices, range, toUint8Array, } from '../utils';
+import FileEmbedder, { AFRelationship } from '../core/embedders/FileEmbedder';
+import PDFEmbeddedFile from '../api/PDFEmbeddedFile';
+import PDFJavaScript from '../api/PDFJavaScript';
+import JavaScriptEmbedder from '../core/embedders/JavaScriptEmbedder';
 /**
  * Represents a PDF document.
  */

@@ -1,7 +1,7 @@
 import { __extends } from "tslib";
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroButton from 'src/core/acroform/PDFAcroButton';
-import { InvalidAcroFieldValueError } from 'src/core/errors';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroButton from '../../core/acroform/PDFAcroButton';
+import { InvalidAcroFieldValueError } from '../../core/errors';
 var PDFAcroCheckBox = /** @class */ (function (_super) {
     __extends(PDFAcroCheckBox, _super);
     function PDFAcroCheckBox() {

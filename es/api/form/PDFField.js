@@ -1,9 +1,9 @@
 import { __assign, __spreadArrays } from "tslib";
-import PDFDocument from 'src/api/PDFDocument';
-import { colorToComponents, setFillingColor } from 'src/api/colors';
-import { toDegrees, rotateRectangle, reduceRotation, adjustDimsForRotation, degrees, } from 'src/api/rotations';
-import { PDFRef, PDFWidgetAnnotation, PDFName, MethodNotImplementedError, AcroFieldFlags, PDFAcroTerminal, AnnotationFlags, } from 'src/core';
-import { assertIs, assertMultiple, assertOrUndefined } from 'src/utils';
+import PDFDocument from '../../api/PDFDocument';
+import { colorToComponents, setFillingColor } from '../../api/colors';
+import { toDegrees, rotateRectangle, reduceRotation, adjustDimsForRotation, degrees, } from '../../api/rotations';
+import { PDFRef, PDFWidgetAnnotation, PDFName, MethodNotImplementedError, AcroFieldFlags, PDFAcroTerminal, AnnotationFlags, } from '../../core';
+import { assertIs, assertMultiple, assertOrUndefined } from '../../utils';
 import { ImageAlignment } from '../image';
 import { drawImage, rotateInPlace } from '../operations';
 export var assertFieldAppearanceOptions = function (options) {

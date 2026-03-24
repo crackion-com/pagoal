@@ -1,11 +1,11 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFPage from 'src/api/PDFPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFImage from 'src/api/PDFImage';
-import { ImageAlignment } from 'src/api/image/alignment';
-import { AppearanceProviderFor } from 'src/api/form/appearances';
-import PDFField, { FieldAppearanceOptions } from 'src/api/form/PDFField';
-import { PDFRef, PDFAcroPushButton } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFPage from '../../api/PDFPage';
+import PDFFont from '../../api/PDFFont';
+import PDFImage from '../../api/PDFImage';
+import { ImageAlignment } from '../../api/image/alignment';
+import { AppearanceProviderFor } from '../../api/form/appearances';
+import PDFField, { FieldAppearanceOptions } from '../../api/form/PDFField';
+import { PDFRef, PDFAcroPushButton } from '../../core';
 /**
  * Represents a button field of a [[PDFForm]].
  *

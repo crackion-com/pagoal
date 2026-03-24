@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.assertFieldAppearanceOptions = void 0;
 var tslib_1 = require("tslib");
-var PDFDocument_1 = tslib_1.__importDefault(require("src/api/PDFDocument"));
-var colors_1 = require("src/api/colors");
-var rotations_1 = require("src/api/rotations");
-var core_1 = require("src/core");
-var utils_1 = require("src/utils");
+var PDFDocument_1 = tslib_1.__importDefault(require("../../api/PDFDocument"));
+var colors_1 = require("../../api/colors");
+var rotations_1 = require("../../api/rotations");
+var core_1 = require("../../core");
+var utils_1 = require("../../utils");
 var image_1 = require("../image");
 var operations_1 = require("../operations");
 exports.assertFieldAppearanceOptions = function (options) {

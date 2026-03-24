@@ -1,15 +1,15 @@
 import { __extends } from "tslib";
-import PDFPage from 'src/api/PDFPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFField, { assertFieldAppearanceOptions, } from 'src/api/form/PDFField';
-import { normalizeAppearance, defaultTextFieldAppearanceProvider, } from 'src/api/form/appearances';
-import { rgb } from 'src/api/colors';
-import { degrees } from 'src/api/rotations';
-import { RichTextFieldReadError, ExceededMaxLengthError, InvalidMaxLengthError, } from 'src/api/errors';
-import { ImageAlignment } from 'src/api/image/alignment';
-import { TextAlignment } from 'src/api/text/alignment';
-import { PDFHexString, PDFStream, PDFAcroText, AcroTextFlags, } from 'src/core';
-import { assertIs, assertIsOneOf, assertOrUndefined, assertPositive, assertRangeOrUndefined, } from 'src/utils';
+import PDFPage from '../../api/PDFPage';
+import PDFFont from '../../api/PDFFont';
+import PDFField, { assertFieldAppearanceOptions, } from '../../api/form/PDFField';
+import { normalizeAppearance, defaultTextFieldAppearanceProvider, } from '../../api/form/appearances';
+import { rgb } from '../../api/colors';
+import { degrees } from '../../api/rotations';
+import { RichTextFieldReadError, ExceededMaxLengthError, InvalidMaxLengthError, } from '../../api/errors';
+import { ImageAlignment } from '../../api/image/alignment';
+import { TextAlignment } from '../../api/text/alignment';
+import { PDFHexString, PDFStream, PDFAcroText, AcroTextFlags, } from '../../core';
+import { assertIs, assertIsOneOf, assertOrUndefined, assertPositive, assertRangeOrUndefined, } from '../../utils';
 /**
  * Represents a text field of a [[PDFForm]].
  *

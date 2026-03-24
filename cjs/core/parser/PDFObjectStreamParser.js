@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var ByteStream_1 = tslib_1.__importDefault(require("src/core/parser/ByteStream"));
-var PDFObjectParser_1 = tslib_1.__importDefault(require("src/core/parser/PDFObjectParser"));
-var utils_1 = require("src/utils");
+var errors_1 = require("../../core/errors");
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var ByteStream_1 = tslib_1.__importDefault(require("../../core/parser/ByteStream"));
+var PDFObjectParser_1 = tslib_1.__importDefault(require("../../core/parser/PDFObjectParser"));
+var utils_1 = require("../../utils");
 var PDFObjectStreamParser = /** @class */ (function (_super) {
     tslib_1.__extends(PDFObjectStreamParser, _super);
     function PDFObjectStreamParser(rawStream, shouldWaitForTick) {

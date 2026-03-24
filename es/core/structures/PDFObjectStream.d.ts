@@ -1,7 +1,7 @@
-import PDFObject from 'src/core/objects/PDFObject';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
-import PDFFlateStream from 'src/core/structures/PDFFlateStream';
+import PDFObject from '../../core/objects/PDFObject';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import PDFFlateStream from '../../core/structures/PDFFlateStream';
 export declare type IndirectObject = [PDFRef, PDFObject];
 declare class PDFObjectStream extends PDFFlateStream {
     static withContextAndObjects: (context: PDFContext, objects: IndirectObject[], encode?: boolean) => PDFObjectStream;

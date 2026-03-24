@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var core_1 = require("src/core");
+var core_1 = require("../core");
 /**
  * Represents JavaScript that has been embedded in a [[PDFDocument]].
  */

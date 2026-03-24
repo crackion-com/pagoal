@@ -1,9 +1,9 @@
 import { __spreadArrays } from "tslib";
-import { setFillingColor, setStrokingColor } from 'src/api/colors';
-import { beginText, closePath, drawObject, endText, fill, fillAndStroke, lineTo, moveTo, nextLine, popGraphicsState, pushGraphicsState, rotateAndSkewTextRadiansAndTranslate, rotateRadians, scale, setFontAndSize, setLineHeight, setLineWidth, showText, skewRadians, stroke, translate, setLineCap, rotateDegrees, setGraphicsState, setDashPattern, beginMarkedContent, endMarkedContent, clip, endPath, appendBezierCurve, } from 'src/api/operators';
-import { degrees, toRadians } from 'src/api/rotations';
-import { svgPathToOperators } from 'src/api/svgPath';
-import { asNumber } from 'src/api/objects';
+import { setFillingColor, setStrokingColor } from '../api/colors';
+import { beginText, closePath, drawObject, endText, fill, fillAndStroke, lineTo, moveTo, nextLine, popGraphicsState, pushGraphicsState, rotateAndSkewTextRadiansAndTranslate, rotateRadians, scale, setFontAndSize, setLineHeight, setLineWidth, showText, skewRadians, stroke, translate, setLineCap, rotateDegrees, setGraphicsState, setDashPattern, beginMarkedContent, endMarkedContent, clip, endPath, appendBezierCurve, } from '../api/operators';
+import { degrees, toRadians } from '../api/rotations';
+import { svgPathToOperators } from '../api/svgPath';
+import { asNumber } from '../api/objects';
 export var drawText = function (line, options) {
     return [
         pushGraphicsState(),

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.asNumber = exports.asPDFNumber = exports.asPDFName = void 0;
-var core_1 = require("src/core");
+var core_1 = require("../core");
 exports.asPDFName = function (name) {
     return name instanceof core_1.PDFName ? name : core_1.PDFName.of(name);
 };

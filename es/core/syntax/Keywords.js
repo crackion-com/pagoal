@@ -1,5 +1,5 @@
 import { __spreadArrays } from "tslib";
-import CharCodes from 'src/core/syntax/CharCodes';
+import CharCodes from '../../core/syntax/CharCodes';
 var Space = CharCodes.Space, CarriageReturn = CharCodes.CarriageReturn, Newline = CharCodes.Newline;
 var stream = [
     CharCodes.s,

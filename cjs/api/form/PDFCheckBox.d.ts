@@ -1,8 +1,8 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFPage from 'src/api/PDFPage';
-import { AppearanceProviderFor } from 'src/api/form/appearances';
-import PDFField, { FieldAppearanceOptions } from 'src/api/form/PDFField';
-import { PDFRef, PDFAcroCheckBox } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFPage from '../../api/PDFPage';
+import { AppearanceProviderFor } from '../../api/form/appearances';
+import PDFField, { FieldAppearanceOptions } from '../../api/form/PDFField';
+import { PDFRef, PDFAcroCheckBox } from '../../core';
 /**
  * Represents a check box field of a [[PDFForm]].
  *

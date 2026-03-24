@@ -1,13 +1,13 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFPage_1 = tslib_1.__importDefault(require("src/api/PDFPage"));
-var PDFField_1 = tslib_1.__importStar(require("src/api/form/PDFField"));
-var appearances_1 = require("src/api/form/appearances");
-var colors_1 = require("src/api/colors");
-var rotations_1 = require("src/api/rotations");
-var core_1 = require("src/core");
-var utils_1 = require("src/utils");
+var PDFPage_1 = tslib_1.__importDefault(require("../../api/PDFPage"));
+var PDFField_1 = tslib_1.__importStar(require("../../api/form/PDFField"));
+var appearances_1 = require("../../api/form/appearances");
+var colors_1 = require("../../api/colors");
+var rotations_1 = require("../../api/rotations");
+var core_1 = require("../../core");
+var utils_1 = require("../../utils");
 /**
  * Represents a radio group field of a [[PDFForm]].
  *

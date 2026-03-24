@@ -1,5 +1,5 @@
-import PDFRawStream from 'src/core/objects/PDFRawStream';
-import PDFRef from 'src/core/objects/PDFRef';
+import PDFRawStream from '../../core/objects/PDFRawStream';
+import PDFRef from '../../core/objects/PDFRef';
 export interface Entry {
     ref: PDFRef;
     offset: number;

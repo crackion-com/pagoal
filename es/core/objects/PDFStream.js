@@ -1,9 +1,9 @@
 import { __extends } from "tslib";
-import { MethodNotImplementedError } from 'src/core/errors';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
+import { MethodNotImplementedError } from '../../core/errors';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
 var PDFStream = /** @class */ (function (_super) {
     __extends(PDFStream, _super);
     function PDFStream(dict) {

@@ -1,9 +1,9 @@
-import PDFDocument from 'src/api/PDFDocument';
-import PDFFont from 'src/api/PDFFont';
-import { AppearanceMapping } from 'src/api/form/appearances';
-import { Color } from 'src/api/colors';
-import { Rotation } from 'src/api/rotations';
-import { PDFRef, PDFWidgetAnnotation, PDFOperator, PDFName, PDFDict, PDFAcroTerminal } from 'src/core';
+import PDFDocument from '../../api/PDFDocument';
+import PDFFont from '../../api/PDFFont';
+import { AppearanceMapping } from '../../api/form/appearances';
+import { Color } from '../../api/colors';
+import { Rotation } from '../../api/rotations';
+import { PDFRef, PDFWidgetAnnotation, PDFOperator, PDFName, PDFDict, PDFAcroTerminal } from '../../core';
 import { ImageAlignment } from '../image';
 import PDFImage from '../PDFImage';
 export interface FieldAppearanceOptions {

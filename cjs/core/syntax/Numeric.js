@@ -2,7 +2,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.IsNumeric = exports.IsNumericPrefix = exports.IsDigit = void 0;
 var tslib_1 = require("tslib");
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
 exports.IsDigit = new Uint8Array(256);
 exports.IsDigit[CharCodes_1.default.Zero] = 1;
 exports.IsDigit[CharCodes_1.default.One] = 1;

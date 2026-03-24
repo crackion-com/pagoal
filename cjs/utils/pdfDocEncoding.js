@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.pdfDocEncodingDecode = void 0;
-var strings_1 = require("src/utils/strings");
+var strings_1 = require("../utils/strings");
 // Mapping from PDFDocEncoding to Unicode code point
 var pdfDocEncodingToUnicode = new Uint16Array(256);
 // Initialize the code points which are the same

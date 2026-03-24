@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFInvalidObject extends PDFObject {
     static of: (data: Uint8Array) => PDFInvalidObject;
     private readonly data;

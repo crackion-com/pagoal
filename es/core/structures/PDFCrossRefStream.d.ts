@@ -1,7 +1,7 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
-import PDFFlateStream from 'src/core/structures/PDFFlateStream';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import PDFFlateStream from '../../core/structures/PDFFlateStream';
 export declare enum EntryType {
     Deleted = 0,
     Uncompressed = 1,

@@ -1,14 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var PDFString_1 = tslib_1.__importDefault(require("src/core/objects/PDFString"));
-var PDFHexString_1 = tslib_1.__importDefault(require("src/core/objects/PDFHexString"));
-var BorderStyle_1 = tslib_1.__importDefault(require("src/core/annotation/BorderStyle"));
-var PDFAnnotation_1 = tslib_1.__importDefault(require("src/core/annotation/PDFAnnotation"));
-var AppearanceCharacteristics_1 = tslib_1.__importDefault(require("src/core/annotation/AppearanceCharacteristics"));
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var PDFString_1 = tslib_1.__importDefault(require("../../core/objects/PDFString"));
+var PDFHexString_1 = tslib_1.__importDefault(require("../../core/objects/PDFHexString"));
+var BorderStyle_1 = tslib_1.__importDefault(require("../../core/annotation/BorderStyle"));
+var PDFAnnotation_1 = tslib_1.__importDefault(require("../../core/annotation/PDFAnnotation"));
+var AppearanceCharacteristics_1 = tslib_1.__importDefault(require("../../core/annotation/AppearanceCharacteristics"));
 var PDFWidgetAnnotation = /** @class */ (function (_super) {
     tslib_1.__extends(PDFWidgetAnnotation, _super);
     function PDFWidgetAnnotation() {

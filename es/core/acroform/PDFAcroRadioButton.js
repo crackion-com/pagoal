@@ -1,8 +1,8 @@
 import { __extends } from "tslib";
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroButton from 'src/core/acroform/PDFAcroButton';
-import { AcroButtonFlags } from 'src/core/acroform/flags';
-import { InvalidAcroFieldValueError } from 'src/core/errors';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroButton from '../../core/acroform/PDFAcroButton';
+import { AcroButtonFlags } from '../../core/acroform/flags';
+import { InvalidAcroFieldValueError } from '../../core/errors';
 var PDFAcroRadioButton = /** @class */ (function (_super) {
     __extends(PDFAcroRadioButton, _super);
     function PDFAcroRadioButton() {

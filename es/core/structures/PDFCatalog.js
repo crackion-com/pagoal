@@ -1,7 +1,7 @@
 import { __extends } from "tslib";
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFName from 'src/core/objects/PDFName';
-import { PDFAcroForm } from 'src/core/acroform';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFName from '../../core/objects/PDFName';
+import { PDFAcroForm } from '../../core/acroform';
 import ViewerPreferences from '../interactive/ViewerPreferences';
 var PDFCatalog = /** @class */ (function (_super) {
     __extends(PDFCatalog, _super);

@@ -1,4 +1,4 @@
-import CharCodes from 'src/core/syntax/CharCodes';
+import CharCodes from '../../core/syntax/CharCodes';
 var PDFTrailerDict = /** @class */ (function () {
     function PDFTrailerDict(dict) {
         this.dict = dict;

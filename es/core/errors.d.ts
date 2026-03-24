@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../core/objects/PDFObject';
 export declare class MethodNotImplementedError extends Error {
     constructor(className: string, methodName: string);
 }

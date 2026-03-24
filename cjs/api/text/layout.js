@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.layoutSinglelineText = exports.layoutCombedText = exports.layoutMultilineText = void 0;
-var errors_1 = require("src/api/errors");
-var alignment_1 = require("src/api/text/alignment");
-var utils_1 = require("src/utils");
+var errors_1 = require("../../api/errors");
+var alignment_1 = require("../../api/text/alignment");
+var utils_1 = require("../../utils");
 var MIN_FONT_SIZE = 4;
 var MAX_FONT_SIZE = 500;
 var computeFontSize = function (lines, font, bounds, multiline) {

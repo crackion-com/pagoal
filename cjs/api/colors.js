@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.colorToComponents = exports.componentsToColor = exports.setStrokingColor = exports.setFillingColor = exports.cmyk = exports.rgb = exports.grayscale = exports.ColorTypes = void 0;
-var operators_1 = require("src/api/operators");
-var utils_1 = require("src/utils");
+var operators_1 = require("../api/operators");
+var utils_1 = require("../utils");
 var ColorTypes;
 (function (ColorTypes) {
     ColorTypes["Grayscale"] = "Grayscale";

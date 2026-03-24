@@ -1,8 +1,8 @@
 import { __extends } from "tslib";
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { copyStringIntoBuffer, padStart, utf16Decode, pdfDocEncodingDecode, toCharCode, parseDate, hasUtf16BOM, } from 'src/utils';
-import { InvalidPDFDateStringError } from 'src/core/errors';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
+import { copyStringIntoBuffer, padStart, utf16Decode, pdfDocEncodingDecode, toCharCode, parseDate, hasUtf16BOM, } from '../../utils';
+import { InvalidPDFDateStringError } from '../../core/errors';
 var PDFString = /** @class */ (function (_super) {
     __extends(PDFString, _super);
     function PDFString(value) {

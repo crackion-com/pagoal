@@ -1,5 +1,5 @@
 import { __extends } from "tslib";
-import { arrayAsString } from 'src/utils';
+import { arrayAsString } from '../utils';
 var MethodNotImplementedError = /** @class */ (function (_super) {
     __extends(MethodNotImplementedError, _super);
     function MethodNotImplementedError(className, methodName) {

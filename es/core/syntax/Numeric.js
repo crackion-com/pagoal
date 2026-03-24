@@ -1,4 +1,4 @@
-import CharCodes from 'src/core/syntax/CharCodes';
+import CharCodes from '../../core/syntax/CharCodes';
 export var IsDigit = new Uint8Array(256);
 IsDigit[CharCodes.Zero] = 1;
 IsDigit[CharCodes.One] = 1;

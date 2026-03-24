@@ -5,7 +5,7 @@
 // Updated for pdf-lib & TypeScript by Jeremy Messenger
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.svgPathToOperators = void 0;
-var operators_1 = require("src/api/operators");
+var operators_1 = require("../api/operators");
 var cx = 0;
 var cy = 0;
 var px = 0;

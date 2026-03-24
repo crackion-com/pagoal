@@ -1,6 +1,6 @@
 import { Encodings, Font, FontNames, } from '@pdf-lib/standard-fonts';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import { toCodePoint, toHexString } from 'src/utils';
+import PDFHexString from '../../core/objects/PDFHexString';
+import { toCodePoint, toHexString } from '../../utils';
 /**
  * A note of thanks to the developers of https://github.com/foliojs/pdfkit, as
  * this class borrows from:

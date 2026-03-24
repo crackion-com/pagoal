@@ -1,11 +1,11 @@
 import { __awaiter, __extends, __generator } from "tslib";
-import { ReparseError } from 'src/core/errors';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFRef from 'src/core/objects/PDFRef';
-import ByteStream from 'src/core/parser/ByteStream';
-import PDFObjectParser from 'src/core/parser/PDFObjectParser';
-import { waitForTick } from 'src/utils';
+import { ReparseError } from '../../core/errors';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFRef from '../../core/objects/PDFRef';
+import ByteStream from '../../core/parser/ByteStream';
+import PDFObjectParser from '../../core/parser/PDFObjectParser';
+import { waitForTick } from '../../utils';
 var PDFObjectStreamParser = /** @class */ (function (_super) {
     __extends(PDFObjectStreamParser, _super);
     function PDFObjectStreamParser(rawStream, shouldWaitForTick) {

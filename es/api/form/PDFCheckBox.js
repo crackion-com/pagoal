@@ -1,11 +1,11 @@
 import { __extends } from "tslib";
-import PDFPage from 'src/api/PDFPage';
-import { normalizeAppearance, defaultCheckBoxAppearanceProvider, } from 'src/api/form/appearances';
-import { rgb } from 'src/api/colors';
-import { degrees } from 'src/api/rotations';
-import PDFField, { assertFieldAppearanceOptions, } from 'src/api/form/PDFField';
-import { PDFName, PDFDict, PDFAcroCheckBox, } from 'src/core';
-import { assertIs, assertOrUndefined } from 'src/utils';
+import PDFPage from '../../api/PDFPage';
+import { normalizeAppearance, defaultCheckBoxAppearanceProvider, } from '../../api/form/appearances';
+import { rgb } from '../../api/colors';
+import { degrees } from '../../api/rotations';
+import PDFField, { assertFieldAppearanceOptions, } from '../../api/form/PDFField';
+import { PDFName, PDFDict, PDFAcroCheckBox, } from '../../core';
+import { assertIs, assertOrUndefined } from '../../utils';
 /**
  * Represents a check box field of a [[PDFForm]].
  *

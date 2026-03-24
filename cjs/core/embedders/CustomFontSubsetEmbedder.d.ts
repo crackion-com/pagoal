@@ -1,6 +1,6 @@
-import { Fontkit, Glyph, TypeFeatures } from 'src/types/fontkit';
-import CustomFontEmbedder from 'src/core/embedders/CustomFontEmbedder';
-import PDFHexString from 'src/core/objects/PDFHexString';
+import { Fontkit, Glyph, TypeFeatures } from '../../types/fontkit';
+import CustomFontEmbedder from '../../core/embedders/CustomFontEmbedder';
+import PDFHexString from '../../core/objects/PDFHexString';
 /**
  * A note of thanks to the developers of https://github.com/foliojs/pdfkit, as
  * this class borrows from:

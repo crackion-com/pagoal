@@ -1,17 +1,17 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFHeader_1 = tslib_1.__importDefault(require("src/core/document/PDFHeader"));
-var PDFTrailer_1 = tslib_1.__importDefault(require("src/core/document/PDFTrailer"));
-var PDFInvalidObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFInvalidObject"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var PDFRef_1 = tslib_1.__importDefault(require("src/core/objects/PDFRef"));
-var PDFStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFStream"));
-var PDFCrossRefStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFCrossRefStream"));
-var PDFObjectStream_1 = tslib_1.__importDefault(require("src/core/structures/PDFObjectStream"));
-var PDFWriter_1 = tslib_1.__importDefault(require("src/core/writers/PDFWriter"));
-var utils_1 = require("src/utils");
+var PDFHeader_1 = tslib_1.__importDefault(require("../../core/document/PDFHeader"));
+var PDFTrailer_1 = tslib_1.__importDefault(require("../../core/document/PDFTrailer"));
+var PDFInvalidObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFInvalidObject"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var PDFRef_1 = tslib_1.__importDefault(require("../../core/objects/PDFRef"));
+var PDFStream_1 = tslib_1.__importDefault(require("../../core/objects/PDFStream"));
+var PDFCrossRefStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFCrossRefStream"));
+var PDFObjectStream_1 = tslib_1.__importDefault(require("../../core/structures/PDFObjectStream"));
+var PDFWriter_1 = tslib_1.__importDefault(require("../../core/writers/PDFWriter"));
+var utils_1 = require("../../utils");
 var PDFStreamWriter = /** @class */ (function (_super) {
     tslib_1.__extends(PDFStreamWriter, _super);
     function PDFStreamWriter(context, objectsPerTick, encodeStreams, objectsPerStream) {

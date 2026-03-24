@@ -1,9 +1,9 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.endMarkedContent = exports.beginMarkedContent = exports.setStrokingCmykColor = exports.setFillingCmykColor = exports.setStrokingRgbColor = exports.setFillingRgbColor = exports.setStrokingGrayscaleColor = exports.setFillingGrayscaleColor = exports.drawObject = exports.rotateAndSkewTextDegreesAndTranslate = exports.rotateAndSkewTextRadiansAndTranslate = exports.setTextMatrix = exports.setTextRenderingMode = exports.TextRenderingMode = exports.setTextRise = exports.setLineHeight = exports.setCharacterSqueeze = exports.setWordSpacing = exports.setCharacterSpacing = exports.setFontAndSize = exports.endText = exports.beginText = exports.showText = exports.moveText = exports.nextLine = exports.endPath = exports.fillAndStroke = exports.fill = exports.stroke = exports.square = exports.rectangle = exports.lineTo = exports.moveTo = exports.closePath = exports.appendQuadraticCurve = exports.appendBezierCurve = exports.setLineWidth = exports.popGraphicsState = exports.pushGraphicsState = exports.setGraphicsState = exports.setLineJoin = exports.LineJoinStyle = exports.setLineCap = exports.LineCapStyle = exports.restoreDashPattern = exports.setDashPattern = exports.skewDegrees = exports.skewRadians = exports.rotateDegrees = exports.rotateRadians = exports.scale = exports.translate = exports.concatTransformationMatrix = exports.clipEvenOdd = exports.clip = void 0;
-var objects_1 = require("src/api/objects");
-var rotations_1 = require("src/api/rotations");
-var core_1 = require("src/core");
+var objects_1 = require("../api/objects");
+var rotations_1 = require("../api/rotations");
+var core_1 = require("../core");
 /* ==================== Clipping Path Operators ==================== */
 exports.clip = function () { return core_1.PDFOperator.of(core_1.PDFOperatorNames.ClipNonZero); };
 exports.clipEvenOdd = function () { return core_1.PDFOperator.of(core_1.PDFOperatorNames.ClipEvenOdd); };

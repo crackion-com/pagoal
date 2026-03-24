@@ -1,6 +1,6 @@
 import { __extends } from "tslib";
-import PDFAcroChoice from 'src/core/acroform/PDFAcroChoice';
-import { AcroChoiceFlags } from 'src/core/acroform/flags';
+import PDFAcroChoice from '../../core/acroform/PDFAcroChoice';
+import { AcroChoiceFlags } from '../../core/acroform/flags';
 var PDFAcroComboBox = /** @class */ (function (_super) {
     __extends(PDFAcroComboBox, _super);
     function PDFAcroComboBox() {

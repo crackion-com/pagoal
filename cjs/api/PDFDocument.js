@@ -1,20 +1,20 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var errors_1 = require("src/api/errors");
-var PDFEmbeddedPage_1 = tslib_1.__importDefault(require("src/api/PDFEmbeddedPage"));
-var PDFFont_1 = tslib_1.__importDefault(require("src/api/PDFFont"));
-var PDFImage_1 = tslib_1.__importDefault(require("src/api/PDFImage"));
-var PDFPage_1 = tslib_1.__importDefault(require("src/api/PDFPage"));
-var PDFForm_1 = tslib_1.__importDefault(require("src/api/form/PDFForm"));
-var sizes_1 = require("src/api/sizes");
-var core_1 = require("src/core");
-var PDFDocumentOptions_1 = require("src/api/PDFDocumentOptions");
-var utils_1 = require("src/utils");
-var FileEmbedder_1 = tslib_1.__importStar(require("src/core/embedders/FileEmbedder"));
-var PDFEmbeddedFile_1 = tslib_1.__importDefault(require("src/api/PDFEmbeddedFile"));
-var PDFJavaScript_1 = tslib_1.__importDefault(require("src/api/PDFJavaScript"));
-var JavaScriptEmbedder_1 = tslib_1.__importDefault(require("src/core/embedders/JavaScriptEmbedder"));
+var errors_1 = require("../api/errors");
+var PDFEmbeddedPage_1 = tslib_1.__importDefault(require("../api/PDFEmbeddedPage"));
+var PDFFont_1 = tslib_1.__importDefault(require("../api/PDFFont"));
+var PDFImage_1 = tslib_1.__importDefault(require("../api/PDFImage"));
+var PDFPage_1 = tslib_1.__importDefault(require("../api/PDFPage"));
+var PDFForm_1 = tslib_1.__importDefault(require("../api/form/PDFForm"));
+var sizes_1 = require("../api/sizes");
+var core_1 = require("../core");
+var PDFDocumentOptions_1 = require("../api/PDFDocumentOptions");
+var utils_1 = require("../utils");
+var FileEmbedder_1 = tslib_1.__importStar(require("../core/embedders/FileEmbedder"));
+var PDFEmbeddedFile_1 = tslib_1.__importDefault(require("../api/PDFEmbeddedFile"));
+var PDFJavaScript_1 = tslib_1.__importDefault(require("../api/PDFJavaScript"));
+var JavaScriptEmbedder_1 = tslib_1.__importDefault(require("../core/embedders/JavaScriptEmbedder"));
 /**
  * Represents a PDF document.
  */

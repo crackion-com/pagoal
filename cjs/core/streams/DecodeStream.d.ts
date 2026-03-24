@@ -1,4 +1,4 @@
-import Stream, { StreamType } from 'src/core/streams/Stream';
+import Stream, { StreamType } from '../../core/streams/Stream';
 /**
  * Super class for the decoding streams
  */

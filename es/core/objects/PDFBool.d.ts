@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFBool extends PDFObject {
     static readonly True: PDFBool;
     static readonly False: PDFBool;

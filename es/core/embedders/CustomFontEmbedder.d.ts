@@ -1,8 +1,8 @@
-import { Font, Fontkit, Glyph, TypeFeatures } from 'src/types/fontkit';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
-import { Cache } from 'src/utils';
+import { Font, Fontkit, Glyph, TypeFeatures } from '../../types/fontkit';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import { Cache } from '../../utils';
 /**
  * A note of thanks to the developers of https://github.com/foliojs/pdfkit, as
  * this class borrows from:

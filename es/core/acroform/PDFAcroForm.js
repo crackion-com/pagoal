@@ -1,8 +1,8 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFName from 'src/core/objects/PDFName';
-import PDFAcroNonTerminal from 'src/core/acroform/PDFAcroNonTerminal';
-import { createPDFAcroField, createPDFAcroFields, } from 'src/core/acroform/utils';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFName from '../../core/objects/PDFName';
+import PDFAcroNonTerminal from '../../core/acroform/PDFAcroNonTerminal';
+import { createPDFAcroField, createPDFAcroFields, } from '../../core/acroform/utils';
 var PDFAcroForm = /** @class */ (function () {
     function PDFAcroForm(dict) {
         this.dict = dict;

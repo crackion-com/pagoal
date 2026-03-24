@@ -1,5 +1,5 @@
 import { __awaiter, __generator } from "tslib";
-import { PNG } from 'src/utils/png';
+import { PNG } from '../../utils/png';
 /**
  * A note of thanks to the developers of https://github.com/foliojs/pdfkit, as
  * this class borrows from:

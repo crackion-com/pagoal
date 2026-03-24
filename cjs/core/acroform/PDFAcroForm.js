@@ -1,11 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFAcroNonTerminal_1 = tslib_1.__importDefault(require("src/core/acroform/PDFAcroNonTerminal"));
-var utils_1 = require("src/core/acroform/utils");
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFAcroNonTerminal_1 = tslib_1.__importDefault(require("../../core/acroform/PDFAcroNonTerminal"));
+var utils_1 = require("../../core/acroform/utils");
 var PDFAcroForm = /** @class */ (function () {
     function PDFAcroForm(dict) {
         this.dict = dict;

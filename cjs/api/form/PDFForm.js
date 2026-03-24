@@ -1,21 +1,21 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFDocument_1 = tslib_1.__importDefault(require("src/api/PDFDocument"));
-var PDFButton_1 = tslib_1.__importDefault(require("src/api/form/PDFButton"));
-var PDFCheckBox_1 = tslib_1.__importDefault(require("src/api/form/PDFCheckBox"));
-var PDFDropdown_1 = tslib_1.__importDefault(require("src/api/form/PDFDropdown"));
-var PDFOptionList_1 = tslib_1.__importDefault(require("src/api/form/PDFOptionList"));
-var PDFRadioGroup_1 = tslib_1.__importDefault(require("src/api/form/PDFRadioGroup"));
-var PDFSignature_1 = tslib_1.__importDefault(require("src/api/form/PDFSignature"));
-var PDFTextField_1 = tslib_1.__importDefault(require("src/api/form/PDFTextField"));
-var errors_1 = require("src/api/errors");
-var PDFFont_1 = tslib_1.__importDefault(require("src/api/PDFFont"));
-var StandardFonts_1 = require("src/api/StandardFonts");
-var operations_1 = require("src/api/operations");
-var operators_1 = require("src/api/operators");
-var core_1 = require("src/core");
-var utils_1 = require("src/utils");
+var PDFDocument_1 = tslib_1.__importDefault(require("../../api/PDFDocument"));
+var PDFButton_1 = tslib_1.__importDefault(require("../../api/form/PDFButton"));
+var PDFCheckBox_1 = tslib_1.__importDefault(require("../../api/form/PDFCheckBox"));
+var PDFDropdown_1 = tslib_1.__importDefault(require("../../api/form/PDFDropdown"));
+var PDFOptionList_1 = tslib_1.__importDefault(require("../../api/form/PDFOptionList"));
+var PDFRadioGroup_1 = tslib_1.__importDefault(require("../../api/form/PDFRadioGroup"));
+var PDFSignature_1 = tslib_1.__importDefault(require("../../api/form/PDFSignature"));
+var PDFTextField_1 = tslib_1.__importDefault(require("../../api/form/PDFTextField"));
+var errors_1 = require("../../api/errors");
+var PDFFont_1 = tslib_1.__importDefault(require("../../api/PDFFont"));
+var StandardFonts_1 = require("../../api/StandardFonts");
+var operations_1 = require("../../api/operations");
+var operators_1 = require("../../api/operators");
+var core_1 = require("../../core");
+var utils_1 = require("../../utils");
 /**
  * Represents the interactive form of a [[PDFDocument]].
  *

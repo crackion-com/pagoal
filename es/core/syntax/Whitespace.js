@@ -1,4 +1,4 @@
-import CharCodes from 'src/core/syntax/CharCodes';
+import CharCodes from '../../core/syntax/CharCodes';
 export var IsWhitespace = new Uint8Array(256);
 IsWhitespace[CharCodes.Null] = 1;
 IsWhitespace[CharCodes.Tab] = 1;

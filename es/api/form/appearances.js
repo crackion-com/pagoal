@@ -1,11 +1,11 @@
 import { __assign, __spreadArrays } from "tslib";
-import { drawCheckBox, rotateInPlace, drawRadioButton, drawButton, drawTextField, drawOptionList, } from 'src/api/operations';
-import { rgb, componentsToColor, setFillingColor, grayscale, cmyk, } from 'src/api/colors';
-import { reduceRotation, adjustDimsForRotation } from 'src/api/rotations';
-import { layoutMultilineText, layoutCombedText, layoutSinglelineText, } from 'src/api/text/layout';
-import { TextAlignment } from 'src/api/text/alignment';
-import { setFontAndSize } from 'src/api/operators';
-import { findLastMatch } from 'src/utils';
+import { drawCheckBox, rotateInPlace, drawRadioButton, drawButton, drawTextField, drawOptionList, } from '../../api/operations';
+import { rgb, componentsToColor, setFillingColor, grayscale, cmyk, } from '../../api/colors';
+import { reduceRotation, adjustDimsForRotation } from '../../api/rotations';
+import { layoutMultilineText, layoutCombedText, layoutSinglelineText, } from '../../api/text/layout';
+import { TextAlignment } from '../../api/text/alignment';
+import { setFontAndSize } from '../../api/operators';
+import { findLastMatch } from '../../utils';
 /********************* Appearance Provider Functions **************************/
 export var normalizeAppearance = function (appearance) {
     if ('normal' in appearance)

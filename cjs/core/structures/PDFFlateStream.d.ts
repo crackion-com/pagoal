@@ -1,6 +1,6 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFStream from 'src/core/objects/PDFStream';
-import { Cache } from 'src/utils';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFStream from '../../core/objects/PDFStream';
+import { Cache } from '../../utils';
 declare class PDFFlateStream extends PDFStream {
     protected readonly contentsCache: Cache<Uint8Array>;
     protected readonly encode: boolean;

@@ -1,7 +1,7 @@
-import PDFAcroTerminal from 'src/core/acroform/PDFAcroTerminal';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFString from 'src/core/objects/PDFString';
-import PDFArray from 'src/core/objects/PDFArray';
+import PDFAcroTerminal from '../../core/acroform/PDFAcroTerminal';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFString from '../../core/objects/PDFString';
+import PDFArray from '../../core/objects/PDFArray';
 declare class PDFAcroChoice extends PDFAcroTerminal {
     setValues(values: (PDFString | PDFHexString)[]): void;
     valuesAreValid(values: (PDFString | PDFHexString)[]): boolean;

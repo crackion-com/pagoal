@@ -1,16 +1,16 @@
 import { __assign } from "tslib";
-import { rgb } from 'src/api/colors';
-import { drawImage, drawLine, drawLinesOfText, drawPage, drawRectangle, drawSvgPath, drawEllipse, } from 'src/api/operations';
-import { popGraphicsState, pushGraphicsState, translate, LineCapStyle, scale, } from 'src/api/operators';
-import PDFDocument from 'src/api/PDFDocument';
-import PDFEmbeddedPage from 'src/api/PDFEmbeddedPage';
-import PDFFont from 'src/api/PDFFont';
-import PDFImage from 'src/api/PDFImage';
-import { BlendMode, } from 'src/api/PDFPageOptions';
-import { degrees, toDegrees } from 'src/api/rotations';
-import { StandardFonts } from 'src/api/StandardFonts';
-import { PDFContentStream, PDFName, PDFOperator, PDFPageLeaf, PDFRef, PDFDict, PDFArray, } from 'src/core';
-import { assertEachIs, assertIs, assertMultiple, assertOrUndefined, breakTextIntoLines, cleanText, rectanglesAreEqual, lineSplit, assertRangeOrUndefined, assertIsOneOfOrUndefined, } from 'src/utils';
+import { rgb } from '../api/colors';
+import { drawImage, drawLine, drawLinesOfText, drawPage, drawRectangle, drawSvgPath, drawEllipse, } from '../api/operations';
+import { popGraphicsState, pushGraphicsState, translate, LineCapStyle, scale, } from '../api/operators';
+import PDFDocument from '../api/PDFDocument';
+import PDFEmbeddedPage from '../api/PDFEmbeddedPage';
+import PDFFont from '../api/PDFFont';
+import PDFImage from '../api/PDFImage';
+import { BlendMode, } from '../api/PDFPageOptions';
+import { degrees, toDegrees } from '../api/rotations';
+import { StandardFonts } from '../api/StandardFonts';
+import { PDFContentStream, PDFName, PDFOperator, PDFPageLeaf, PDFRef, PDFDict, PDFArray, } from '../core';
+import { assertEachIs, assertIs, assertMultiple, assertOrUndefined, breakTextIntoLines, cleanText, rectanglesAreEqual, lineSplit, assertRangeOrUndefined, assertIsOneOfOrUndefined, } from '../utils';
 /**
  * Represents a single page of a [[PDFDocument]].
  */

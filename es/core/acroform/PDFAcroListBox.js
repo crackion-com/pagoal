@@ -1,5 +1,5 @@
 import { __extends } from "tslib";
-import PDFAcroChoice from 'src/core/acroform/PDFAcroChoice';
+import PDFAcroChoice from '../../core/acroform/PDFAcroChoice';
 var PDFAcroListBox = /** @class */ (function (_super) {
     __extends(PDFAcroListBox, _super);
     function PDFAcroListBox() {

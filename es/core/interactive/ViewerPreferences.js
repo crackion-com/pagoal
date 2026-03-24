@@ -1,8 +1,8 @@
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFBool from 'src/core/objects/PDFBool';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import { assertEachIs, assertInteger, assertIsOneOf, assertRange, } from 'src/utils';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFBool from '../../core/objects/PDFBool';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import { assertEachIs, assertInteger, assertIsOneOf, assertRange, } from '../../utils';
 var asEnum = function (rawValue, enumType) {
     if (rawValue === undefined)
         return undefined;

@@ -1,9 +1,9 @@
 import { __awaiter, __generator } from "tslib";
-import { createCmap } from 'src/core/embedders/CMap';
-import { deriveFontFlags } from 'src/core/embedders/FontFlags';
-import PDFHexString from 'src/core/objects/PDFHexString';
-import PDFString from 'src/core/objects/PDFString';
-import { byAscendingId, Cache, sortedUniq, toHexStringOfMinLength, } from 'src/utils';
+import { createCmap } from '../../core/embedders/CMap';
+import { deriveFontFlags } from '../../core/embedders/FontFlags';
+import PDFHexString from '../../core/objects/PDFHexString';
+import PDFString from '../../core/objects/PDFString';
+import { byAscendingId, Cache, sortedUniq, toHexStringOfMinLength, } from '../../utils';
 /**
  * A note of thanks to the developers of https://github.com/foliojs/pdfkit, as
  * this class borrows from:

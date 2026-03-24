@@ -1,8 +1,8 @@
 import { __extends, __spreadArrays } from "tslib";
-import PDFName from 'src/core/objects/PDFName';
-import PDFNull from 'src/core/objects/PDFNull';
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
+import PDFName from '../../core/objects/PDFName';
+import PDFNull from '../../core/objects/PDFNull';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
 var PDFDict = /** @class */ (function (_super) {
     __extends(PDFDict, _super);
     function PDFDict(map, context) {

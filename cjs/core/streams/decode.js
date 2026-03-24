@@ -2,17 +2,17 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.decodePDFRawStream = void 0;
 var tslib_1 = require("tslib");
-var errors_1 = require("src/core/errors");
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFDict_1 = tslib_1.__importDefault(require("src/core/objects/PDFDict"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var Ascii85Stream_1 = tslib_1.__importDefault(require("src/core/streams/Ascii85Stream"));
-var AsciiHexStream_1 = tslib_1.__importDefault(require("src/core/streams/AsciiHexStream"));
-var FlateStream_1 = tslib_1.__importDefault(require("src/core/streams/FlateStream"));
-var LZWStream_1 = tslib_1.__importDefault(require("src/core/streams/LZWStream"));
-var RunLengthStream_1 = tslib_1.__importDefault(require("src/core/streams/RunLengthStream"));
-var Stream_1 = tslib_1.__importDefault(require("src/core/streams/Stream"));
+var errors_1 = require("../../core/errors");
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFDict_1 = tslib_1.__importDefault(require("../../core/objects/PDFDict"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var Ascii85Stream_1 = tslib_1.__importDefault(require("../../core/streams/Ascii85Stream"));
+var AsciiHexStream_1 = tslib_1.__importDefault(require("../../core/streams/AsciiHexStream"));
+var FlateStream_1 = tslib_1.__importDefault(require("../../core/streams/FlateStream"));
+var LZWStream_1 = tslib_1.__importDefault(require("../../core/streams/LZWStream"));
+var RunLengthStream_1 = tslib_1.__importDefault(require("../../core/streams/RunLengthStream"));
+var Stream_1 = tslib_1.__importDefault(require("../../core/streams/Stream"));
 var decodeStream = function (stream, encoding, params) {
     if (encoding === PDFName_1.default.of('FlateDecode')) {
         return new FlateStream_1.default(stream);

@@ -1,8 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFStream_1 = tslib_1.__importDefault(require("src/core/objects/PDFStream"));
-var utils_1 = require("src/utils");
+var PDFStream_1 = tslib_1.__importDefault(require("../../core/objects/PDFStream"));
+var utils_1 = require("../../utils");
 var PDFRawStream = /** @class */ (function (_super) {
     tslib_1.__extends(PDFRawStream, _super);
     function PDFRawStream(dict, contents) {

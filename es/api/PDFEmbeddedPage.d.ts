@@ -1,6 +1,6 @@
-import Embeddable from 'src/api/Embeddable';
-import PDFDocument from 'src/api/PDFDocument';
-import { PDFPageEmbedder, PDFRef } from 'src/core';
+import Embeddable from '../api/Embeddable';
+import PDFDocument from '../api/PDFDocument';
+import { PDFPageEmbedder, PDFRef } from '../core';
 /**
  * Represents a PDF page that has been embedded in a [[PDFDocument]].
  */

@@ -1,5 +1,5 @@
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFNumber from 'src/core/objects/PDFNumber';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFNumber from '../../core/objects/PDFNumber';
 declare class BorderStyle {
     readonly dict: PDFDict;
     static fromDict: (dict: PDFDict) => BorderStyle;

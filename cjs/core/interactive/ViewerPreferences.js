@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Duplex = exports.PrintScaling = exports.ReadingDirection = exports.NonFullScreenPageMode = void 0;
 var tslib_1 = require("tslib");
-var PDFArray_1 = tslib_1.__importDefault(require("src/core/objects/PDFArray"));
-var PDFBool_1 = tslib_1.__importDefault(require("src/core/objects/PDFBool"));
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNumber_1 = tslib_1.__importDefault(require("src/core/objects/PDFNumber"));
-var utils_1 = require("src/utils");
+var PDFArray_1 = tslib_1.__importDefault(require("../../core/objects/PDFArray"));
+var PDFBool_1 = tslib_1.__importDefault(require("../../core/objects/PDFBool"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNumber_1 = tslib_1.__importDefault(require("../../core/objects/PDFNumber"));
+var utils_1 = require("../../utils");
 var asEnum = function (rawValue, enumType) {
     if (rawValue === undefined)
         return undefined;

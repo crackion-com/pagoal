@@ -1,5 +1,5 @@
-import { setFillingCmykColor, setFillingGrayscaleColor, setFillingRgbColor, setStrokingCmykColor, setStrokingGrayscaleColor, setStrokingRgbColor, } from 'src/api/operators';
-import { assertRange, error } from 'src/utils';
+import { setFillingCmykColor, setFillingGrayscaleColor, setFillingRgbColor, setStrokingCmykColor, setStrokingGrayscaleColor, setStrokingRgbColor, } from '../api/operators';
+import { assertRange, error } from '../utils';
 export var ColorTypes;
 (function (ColorTypes) {
     ColorTypes["Grayscale"] = "Grayscale";

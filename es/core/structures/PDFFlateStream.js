@@ -1,9 +1,9 @@
 import { __extends } from "tslib";
 import pako from 'pako';
-import { MethodNotImplementedError } from 'src/core/errors';
-import PDFName from 'src/core/objects/PDFName';
-import PDFStream from 'src/core/objects/PDFStream';
-import { Cache } from 'src/utils';
+import { MethodNotImplementedError } from '../../core/errors';
+import PDFName from '../../core/objects/PDFName';
+import PDFStream from '../../core/objects/PDFStream';
+import { Cache } from '../../utils';
 var PDFFlateStream = /** @class */ (function (_super) {
     __extends(PDFFlateStream, _super);
     function PDFFlateStream(dict, encode) {

@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFHexString_1 = tslib_1.__importDefault(require("src/core/objects/PDFHexString"));
+var PDFHexString_1 = tslib_1.__importDefault(require("../../core/objects/PDFHexString"));
 var JavaScriptEmbedder = /** @class */ (function () {
     function JavaScriptEmbedder(script, scriptName) {
         this.script = script;

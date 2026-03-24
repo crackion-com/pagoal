@@ -1,8 +1,8 @@
 import { __extends, __spreadArrays } from "tslib";
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFObject from 'src/core/objects/PDFObject';
-import CharCodes from 'src/core/syntax/CharCodes';
-import { PDFArrayIsNotRectangleError } from 'src/core/errors';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFObject from '../../core/objects/PDFObject';
+import CharCodes from '../../core/syntax/CharCodes';
+import { PDFArrayIsNotRectangleError } from '../../core/errors';
 var PDFArray = /** @class */ (function (_super) {
     __extends(PDFArray, _super);
     function PDFArray(context) {

@@ -2,11 +2,11 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.drawOptionList = exports.drawTextField = exports.drawTextLines = exports.drawButton = exports.drawRadioButton = exports.drawCheckBox = exports.rotateInPlace = exports.drawCheckMark = exports.drawSvgPath = exports.drawEllipse = exports.drawEllipsePath = exports.drawRectangle = exports.drawLine = exports.drawPage = exports.drawImage = exports.drawLinesOfText = exports.drawText = void 0;
 var tslib_1 = require("tslib");
-var colors_1 = require("src/api/colors");
-var operators_1 = require("src/api/operators");
-var rotations_1 = require("src/api/rotations");
-var svgPath_1 = require("src/api/svgPath");
-var objects_1 = require("src/api/objects");
+var colors_1 = require("../api/colors");
+var operators_1 = require("../api/operators");
+var rotations_1 = require("../api/rotations");
+var svgPath_1 = require("../api/svgPath");
+var objects_1 = require("../api/objects");
 exports.drawText = function (line, options) {
     return [
         operators_1.pushGraphicsState(),

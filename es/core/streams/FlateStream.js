@@ -14,7 +14,7 @@ import { __extends } from "tslib";
  * under the Apache 2.0 open source license.
  */
 /* tslint:disable  no-conditional-assignment */
-import DecodeStream from 'src/core/streams/DecodeStream';
+import DecodeStream from '../../core/streams/DecodeStream';
 // prettier-ignore
 var codeLenCodeMap = new Int32Array([
     16, 17, 18, 0, 8, 7, 9, 6, 10, 5, 11, 4, 12, 3, 13, 2, 14, 1, 15

@@ -1,6 +1,6 @@
-import Embeddable from 'src/api//Embeddable';
-import PDFDocument from 'src/api/PDFDocument';
-import { CustomFontEmbedder, PDFHexString, PDFRef, StandardFontEmbedder } from 'src/core';
+import Embeddable from '../api/Embeddable';
+import PDFDocument from '../api/PDFDocument';
+import { CustomFontEmbedder, PDFHexString, PDFRef, StandardFontEmbedder } from '../core';
 export declare type FontEmbedder = CustomFontEmbedder | StandardFontEmbedder;
 /**
  * Represents a font that has been embedded in a [[PDFDocument]].

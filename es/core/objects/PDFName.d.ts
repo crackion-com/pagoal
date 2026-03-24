@@ -1,4 +1,4 @@
-import PDFObject from 'src/core/objects/PDFObject';
+import PDFObject from '../../core/objects/PDFObject';
 declare class PDFName extends PDFObject {
     static of: (name: string) => PDFName;
     static readonly Length: PDFName;

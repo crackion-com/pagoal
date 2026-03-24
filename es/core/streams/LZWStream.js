@@ -6,7 +6,7 @@
  * under the Apache 2.0 open source license.
  */
 import { __extends } from "tslib";
-import DecodeStream from 'src/core/streams/DecodeStream';
+import DecodeStream from '../../core/streams/DecodeStream';
 var LZWStream = /** @class */ (function (_super) {
     __extends(LZWStream, _super);
     function LZWStream(stream, maybeLength, earlyChange) {

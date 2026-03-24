@@ -1,6 +1,6 @@
 import { __awaiter, __generator } from "tslib";
-import PDFString from 'src/core/objects/PDFString';
-import PDFHexString from 'src/core/objects/PDFHexString';
+import PDFString from '../../core/objects/PDFString';
+import PDFHexString from '../../core/objects/PDFHexString';
 /**
  * From the PDF-A3 specification, section **3.1. Requirements - General**.
  * See:

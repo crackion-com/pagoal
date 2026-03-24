@@ -1,18 +1,18 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var colors_1 = require("src/api/colors");
-var operations_1 = require("src/api/operations");
-var operators_1 = require("src/api/operators");
-var PDFDocument_1 = tslib_1.__importDefault(require("src/api/PDFDocument"));
-var PDFEmbeddedPage_1 = tslib_1.__importDefault(require("src/api/PDFEmbeddedPage"));
-var PDFFont_1 = tslib_1.__importDefault(require("src/api/PDFFont"));
-var PDFImage_1 = tslib_1.__importDefault(require("src/api/PDFImage"));
-var PDFPageOptions_1 = require("src/api/PDFPageOptions");
-var rotations_1 = require("src/api/rotations");
-var StandardFonts_1 = require("src/api/StandardFonts");
-var core_1 = require("src/core");
-var utils_1 = require("src/utils");
+var colors_1 = require("../api/colors");
+var operations_1 = require("../api/operations");
+var operators_1 = require("../api/operators");
+var PDFDocument_1 = tslib_1.__importDefault(require("../api/PDFDocument"));
+var PDFEmbeddedPage_1 = tslib_1.__importDefault(require("../api/PDFEmbeddedPage"));
+var PDFFont_1 = tslib_1.__importDefault(require("../api/PDFFont"));
+var PDFImage_1 = tslib_1.__importDefault(require("../api/PDFImage"));
+var PDFPageOptions_1 = require("../api/PDFPageOptions");
+var rotations_1 = require("../api/rotations");
+var StandardFonts_1 = require("../api/StandardFonts");
+var core_1 = require("../core");
+var utils_1 = require("../utils");
 /**
  * Represents a single page of a [[PDFDocument]].
  */

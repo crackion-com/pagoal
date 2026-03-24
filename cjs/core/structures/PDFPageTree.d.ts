@@ -1,9 +1,9 @@
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFDict, { DictMap } from 'src/core/objects/PDFDict';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import PDFRef from 'src/core/objects/PDFRef';
-import PDFContext from 'src/core/PDFContext';
-import PDFPageLeaf from 'src/core/structures/PDFPageLeaf';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFDict, { DictMap } from '../../core/objects/PDFDict';
+import PDFNumber from '../../core/objects/PDFNumber';
+import PDFRef from '../../core/objects/PDFRef';
+import PDFContext from '../../core/PDFContext';
+import PDFPageLeaf from '../../core/structures/PDFPageLeaf';
 export declare type TreeNode = PDFPageTree | PDFPageLeaf;
 declare class PDFPageTree extends PDFDict {
     static withContext: (context: PDFContext, parent?: PDFRef | undefined) => PDFPageTree;

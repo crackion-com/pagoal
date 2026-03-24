@@ -1,14 +1,14 @@
-import { UnexpectedObjectTypeError, UnsupportedEncodingError, } from 'src/core/errors';
-import PDFArray from 'src/core/objects/PDFArray';
-import PDFDict from 'src/core/objects/PDFDict';
-import PDFName from 'src/core/objects/PDFName';
-import PDFNumber from 'src/core/objects/PDFNumber';
-import Ascii85Stream from 'src/core/streams/Ascii85Stream';
-import AsciiHexStream from 'src/core/streams/AsciiHexStream';
-import FlateStream from 'src/core/streams/FlateStream';
-import LZWStream from 'src/core/streams/LZWStream';
-import RunLengthStream from 'src/core/streams/RunLengthStream';
-import Stream from 'src/core/streams/Stream';
+import { UnexpectedObjectTypeError, UnsupportedEncodingError, } from '../../core/errors';
+import PDFArray from '../../core/objects/PDFArray';
+import PDFDict from '../../core/objects/PDFDict';
+import PDFName from '../../core/objects/PDFName';
+import PDFNumber from '../../core/objects/PDFNumber';
+import Ascii85Stream from '../../core/streams/Ascii85Stream';
+import AsciiHexStream from '../../core/streams/AsciiHexStream';
+import FlateStream from '../../core/streams/FlateStream';
+import LZWStream from '../../core/streams/LZWStream';
+import RunLengthStream from '../../core/streams/RunLengthStream';
+import Stream from '../../core/streams/Stream';
 var decodeStream = function (stream, encoding, params) {
     if (encoding === PDFName.of('FlateDecode')) {
         return new FlateStream(stream);

@@ -1,10 +1,10 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var tslib_1 = require("tslib");
-var PDFName_1 = tslib_1.__importDefault(require("src/core/objects/PDFName"));
-var PDFNull_1 = tslib_1.__importDefault(require("src/core/objects/PDFNull"));
-var PDFObject_1 = tslib_1.__importDefault(require("src/core/objects/PDFObject"));
-var CharCodes_1 = tslib_1.__importDefault(require("src/core/syntax/CharCodes"));
+var PDFName_1 = tslib_1.__importDefault(require("../../core/objects/PDFName"));
+var PDFNull_1 = tslib_1.__importDefault(require("../../core/objects/PDFNull"));
+var PDFObject_1 = tslib_1.__importDefault(require("../../core/objects/PDFObject"));
+var CharCodes_1 = tslib_1.__importDefault(require("../../core/syntax/CharCodes"));
 var PDFDict = /** @class */ (function (_super) {
     tslib_1.__extends(PDFDict, _super);
     function PDFDict(map, context) {
